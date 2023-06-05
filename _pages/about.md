@@ -17,9 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Qisen Yang(杨淇森). I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University in 2019. I am now an undergraduate student at College of Computer Science & Technology, Zhejiang University. Currently I am supervised by [Prof. Yingcai Wu](http://www.ycwu.org) at [ZJUIDG](zjuidg.org). My research interests include Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis.
+My name is Qisen Yang(杨淇森). I am an incoming Ph.D. student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
 
-I'm looking for PhD position at 2023fall, you can find my [CV](https://github.com/QS-Yang/QS-Yang.github.io/raw/main/docs/CV.pdf) here.
+Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University in 2019 and then obtained my Bachelor's degree in CS. During my undergraduate, I work closely with Dr. [Zhutian Chen](https://chenzhutian.org/) at [VCG](https://vcg.seas.harvard.edu/), Prof. [Yingcai Wu](http://www.ycwu.org/) at [ZJUIDG](zjuidg.org), Prof. [Huamin Qu](http://huamin.org/) at [HKUST VisLab](http://vis.cse.ust.hk/)
+
 
 # 📖 Educations
 
@@ -31,9 +32,9 @@ I'm looking for PhD position at 2023fall, you can find my [CV](https://github.co
 - *2022.07*: &nbsp;🎉🎉 One paper about visualization in argument sports video was accepted by IEEE VIS 2022. My first co-authored paper!
 
 # 💻 Research Experience
-- *2022.06 - present* **Undergradute Visiting Research Intern, VisLab, HKUST**
+- *2022.06 - 2023.4* **Undergradute Visiting Research Intern, VisLab, HKUST**
 
-   Advised by Prof. [Huamin Qu](http://huamin.org/). I will work with [Yifang Wang](http://wangyifang.top/about/) to find some interesting interactions between VIS and social computing, especially on U.S. voting history.
+   Advised by Prof. [Huamin Qu](http://huamin.org/). I will work with [Yifang Wang](http://wangyifang.top/about/) to find some interesting interactions between VIS and social computing, especially on voting history.
 
 - *2022.01 - 2022.09*  **Research Intern, VCG, SEAS@Harvard**
 
@@ -56,7 +57,7 @@ I'm looking for PhD position at 2023fall, you can find my [CV](https://github.co
 </div>
 </div> -->
 
-- **(Conditional Accepted)**iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations
+- iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations
 
   Zhutian Chen, **<u>Qisen Yang</u>**, Jiarui Shan, Tica Lin, Johanna Beyer, Haijun Xia, and Hanspeter Pfister, **CHI 2023**
 
