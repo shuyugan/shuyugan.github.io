@@ -17,9 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Qisen Yang(杨淇森). I am an incoming Ph.D. student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
+My name is Qisen Yang(杨淇森). I am a first-year Ph.D. student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
 
-Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University in 2019 and then obtained my Bachelor's degree in CS. During my undergraduate, I work closely with Dr. [Zhutian Chen](https://chenzhutian.org/) at [VCG](https://vcg.seas.harvard.edu/), Prof. [Yingcai Wu](http://www.ycwu.org/) at [ZJUIDG](zjuidg.org), Prof. [Huamin Qu](http://huamin.org/) at [HKUST VisLab](http://vis.cse.ust.hk/)
+Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University and obtained my Bachelor's degree in CS. During my undergraduate, I work closely with Prof. [Zhutian Chen](https://chenzhutian.org/) at [VCG](https://vcg.seas.harvard.edu/), Prof. [Yingcai Wu](http://www.ycwu.org/) at [ZJUIDG](zjuidg.org), Prof. [Huamin Qu](http://huamin.org/) at [HKUST VisLab](http://vis.cse.ust.hk/)
 
 
 # 📖 Educations
