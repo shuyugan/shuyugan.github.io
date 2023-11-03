@@ -23,15 +23,20 @@ Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( C
 
 
 # 📖 Educations
+- *2023.09 - present*, PhD, Cognitive Science, UC San Diego. 
 
-- *2019.08 - 2023.06*, Undergraduate, Chu Kochen Honors College, Zhejiang Univeristy, Hangzhou. 
+- *2019.08 - 2023.06*, Undergraduate, Computer Science with Honor, Zhejiang Univeristy. 
 
 
 # 🔥 News
+- *2023.11*: Attend my first in-person conference UIST'23@San Froncisco, CA
+- *2023.09*: &nbsp;🎉🎉 NeighViz was accepted by VDS 2023. 
 - *2023.01*: &nbsp;🎉🎉 One paper about gaze-moderated visualization on augmenting sports video was accepted by CHI 2023. We will open source later!
 - *2022.07*: &nbsp;🎉🎉 One paper about visualization in argument sports video was accepted by IEEE VIS 2022. My first co-authored paper!
 
 # 💻 Research Experience
+- *2023.9 - present* **Graduate Student Researcher, Creativity Lab, UC San Diego**
+
 - *2022.06 - 2023.4* **Undergradute Visiting Research Intern, VisLab, HKUST**
 
    Advised by Prof. [Huamin Qu](http://huamin.org/). I will work with [Yifang Wang](http://wangyifang.top/about/) to find some interesting interactions between VIS and social computing, especially on voting history.
@@ -56,6 +61,11 @@ Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( C
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div> -->
+
+- NeighViz: Towards Better Understanding of Neighborhood Effects on Social Groups with Spatial Data
+
+  Yue Yu, Yifang Wang*, **<u>Qisen Yang</u>**, Di Weng, Yongjun Zhang, Xiaogang Wu, Yingcai Wu, Huamin Qu
+  **VDS 2023** (Visualization in Data Science at IEEE VIS)
 
 - iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations
 
