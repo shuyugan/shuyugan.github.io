@@ -17,13 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Qisen Yang(杨淇森). I am a first-year Ph.D. student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
+My name is Qisen Yang(杨淇森). I am a graduate student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
 
 Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University and obtained my Bachelor's degree in CS. During my undergraduate, I work closely with Prof. [Zhutian Chen](https://chenzhutian.org/) at [VCG](https://vcg.seas.harvard.edu/), Prof. [Yingcai Wu](http://www.ycwu.org/) at [ZJUIDG](zjuidg.org), Prof. [Huamin Qu](http://huamin.org/) at [HKUST VisLab](http://vis.cse.ust.hk/)
 
 
 # 📖 Educations
-- *2023.09 - present*, PhD, Cognitive Science, UC San Diego. 
+- *2023.09 - present*, Graduate Student, Cognitive Science, UC San Diego. 
 
 - *2019.08 - 2023.06*, Undergraduate, Computer Science with Honor, Zhejiang Univeristy. 
 
@@ -37,7 +37,7 @@ Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( C
 # 💻 Research Experience
 - *2023.9 - present* **Graduate Student Researcher, Creativity Lab, UC San Diego**
 
-- *2022.06 - 2023.4* **Undergradute Visiting Research Intern, VisLab, HKUST**
+- *2022.09 - 2023.4* **Undergradute Visiting Research Intern, VisLab, HKUST**
 
    Advised by Prof. [Huamin Qu](http://huamin.org/). I will work with [Yifang Wang](http://wangyifang.top/about/) to find some interesting interactions between VIS and social computing, especially on voting history.
 
