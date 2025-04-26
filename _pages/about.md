@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -17,38 +17,35 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is Qisen Yang(杨淇森). I am a graduate student at UC San Diego [Creativity Lab](https://creativity.ucsd.edu/), advised by Prof. [Haijun Xia](https://haijunxia.ucsd.edu/). My research interests focus on the intersection of Visualization and Human-Computer Interaction, especially how to use visualization techniques to facilitate the process of data fetching and data analysis. 
+My name is Shuyu Gan(甘书宇). I am an incoming CS PhD student at UMN [Minnesota NLP](https://minnesotanlp.github.io/) and [High-Performance Data, Signal and Network Optimization Group](https://people.ece.umn.edu/~mhong/index.html), co-advised by Prof. [Dongyeop Kang](https://dykang.github.io/) and Prof. [Mingyi Hong](https://people.ece.umn.edu/~mhong/mingyi.html). My research interests focus on Generative AI, LLM Alignments and Agentic Framework Developments. My current goal is to develop general purpose agents that can automate computer work.
 
-Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( Chu Kochen Honors College ), Zhejiang University and obtained my Bachelor's degree in CS. During my undergraduate, I work closely with Prof. [Zhutian Chen](https://chenzhutian.org/) at [VCG](https://vcg.seas.harvard.edu/), Prof. [Yingcai Wu](http://www.ycwu.org/) at [ZJUIDG](zjuidg.org), Prof. [Huamin Qu](http://huamin.org/) at [HKUST VisLab](http://vis.cse.ust.hk/)
-
+Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclass_en) in Chu Kochen Honors College, Zhejiang University and obtained my Bachelor's degree in Computer Science and Technology in 2024. During my undergraduate, I am grateful to be advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), Prof. [Yi Yang](https://reler.net/), Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/) and Prof. [Xin Eric Wang](https://eric-xw.github.io/).
 
 # 📖 Educations
-- *2023.09 - present*, Graduate Student, Cognitive Science, UC San Diego. 
 
-- *2019.08 - 2023.06*, Undergraduate, Computer Science with Honor, Zhejiang Univeristy. 
+- _2025.09 - Future_, Incoming Graduate Student, Computer Science, University of Minnesota, Minneapolis.
 
+- _2020.09 - 2024.06_, Undergraduate, Computer Science, Chu Kochen Honors College, Zhejiang Univeristy.
 
 # 🔥 News
-- *2023.11*: Attend my first in-person conference UIST'23@San Froncisco, CA
-- *2023.09*: &nbsp;🎉🎉 NeighViz was accepted by VDS 2023. 
-- *2023.01*: &nbsp;🎉🎉 One paper about gaze-moderated visualization on augmenting sports video was accepted by CHI 2023. We will open source later!
-- *2022.07*: &nbsp;🎉🎉 One paper about visualization in argument sports video was accepted by IEEE VIS 2022. My first co-authored paper!
+
+- _2025.03_: &nbsp;🤖 Joined Zhipu AI as a research intern. We want to build a general, robust API-based Computer Use Agent!
+- _2025.01_: &nbsp;🎉🎉 Agent S was accepted by ICLR 2025! Thanks to all my collaborators!
+- _2024.6_: &nbsp;👋👋 Graduated from Zhejiang University and nominated for Outstanding Graduates of Zhejiang University. Bye ZJU!
+- _2023.07_: &nbsp;🎉🎉 One paper accepted by ACMMM 2023.
 
 # 💻 Research Experience
-- *2023.9 - present* **Graduate Student Researcher, Creativity Lab, UC San Diego**
 
-- *2022.09 - 2023.4* **Undergradute Visiting Research Intern, VisLab, HKUST**
+- _2024.06 - 2024.11_ **Undergradute Visiting Research Intern, [ERIC Lab](http://eric-lab.soe.ucsc.edu/home), UC Santa Cruz**
+  Advised by Prof. [Xin Eric Wang](https://eric-xw.github.io/), we introduced Agent S, an MLLM-based agent that autonomously perform complex computer tasks.
 
-   Advised by Prof. [Huamin Qu](http://huamin.org/). I will work with [Yifang Wang](http://wangyifang.top/about/) to find some interesting interactions between VIS and social computing, especially on voting history.
+- _2023.07 - 2023.09_ **Undergradute Visiting Research Intern, [mlPC](https://pages.ucsd.edu/~ztu/Group.htm), UC San Diego**
+  Supervised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), we injected conceptual guidance into Diffusion models’ training process to improve the quality of generatedimages and avoid making semantic mistakes.
 
-- *2022.01 - 2022.09*  **Research Intern, VCG, SEAS@Harvard**
+- _2023.02 - 2023.05_ **Research Intern, [IDEA Lab](https://www.idi.zju.edu.cn/space/2747.html)@ZJU**
+  Advised by Prof. [Lingyun Sun](http://huamin.org/), we tackled the noticable absence of cultural modalities in the multimodal co-speech gesture generation field.
 
-   Lead by [Hanspeter Pfister](https://vcg.seas.harvard.edu/people), I first work with [Zhutian Chen](https://chenzhutian.org) on exploring how to leverage commentary to create augmented sports videos, which is the future work of [“Augmenting Sports Videos with VisCommentator”](https://viscommentator.github.io). And then we try to find ways to help casual fans better understand basketball games using gaze-moderated embedded visualization.
-
-- *2021.04 - 2022.05*  **Student Research Training Project**, **Zhejiang University**      
-   Advised by [Prof. Yingcai Wu](http://www.ycwu.org) at [ZJUIDG](zjuidg.org), we focus on “Tac-Pair: visual analytics of anticipation skills for players”, and developed a system: AnticiViz, using visualization tools to help sports and trainers better understand anticipation behavior of sports.
-
-# 📝 Publications 
+# 📝 Publications
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -58,34 +55,29 @@ Previously, I entered [Turing Class](http://www.cs.zju.edu.cn/turingclass_en)( C
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
 </div>
 </div> -->
 
-- NeighViz: Towards Better Understanding of Neighborhood Effects on Social Groups with Spatial Data
+- Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Datase
 
-  Yue Yu, Yifang Wang*, **<u>Qisen Yang</u>**, Di Weng, Yongjun Zhang, Xiaogang Wu, Yingcai Wu, Huamin Qu
-  **VDS 2023** (Visualization in Data Science at IEEE VIS)
+  ingyu Wu, Shi Chen, **<u>Shuyu Gan</u>**, Weijun Li, yang changyuan eric, Lingyun Sun **ACMMM 2023**
 
-- iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations
+- Agent S: An Open Agentic Framework that Uses Computers Like a Human
 
-  Zhutian Chen, **<u>Qisen Yang</u>**, Jiarui Shan, Tica Lin, Johanna Beyer, Haijun Xia, and Hanspeter Pfister, **CHI 2023**
-
-- Sporthesia: Augmenting Sports Videos Using Natural Language 
-
-  Zhutian Chen, **<u>Qisen Yang</u>**, Xiao Xie, Johanna Beyer, Haijun Xia, Yingcai Wu, and Hanspeter Pfister, **VIS 2022**
+  Saaket Agashe, Jiuzhou Han, **<u>Shuyu Gan</u>**, Jiachen Yang, Ang Li, Xin Eric Wang **ICLR 2025**
 
 # 🎖 Honors and Awards
-- "Campus Star" of College of Computer Science and Technology (10 out of ~500)
-- 2020-2021 Zhejiang Provincial Government Scholarship
+
+- 2022-2023 First-Prize Scholarship of Zhejiang University & Outstanding Student
+- Outstanding Undergraduate Graduate of Zhejiang University
 - Second-prize Scholarship of Zhejiang University(for 2 consecutive years)
-- Leading Scholarship of Chu KoChen Honors College(for 2 consecutive years)
-- 2021 MCM/ICM Honorable Mention
+- Zhejiang University’s Top-notch Scholarship for Basic Disciplines(for 2 consecutive years)
 
-# 🏢Campus Experience
+# 🎮🏸🏃 Miscellaneous
 
-- *2021-present* Associate counsellor, College of Computer Science and Technology
+- I love playing FPS games in my spare time, especially CS2 and Valoriant!
 
-- *2020-2021* President of Chu KoChen College Student Union
+- For sports, I have been a member of [Kuafu Long Distance Alliance](https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm) in ZJU for three years and I love middle and long-distance running! I have participated in 1500m race and Half Marathon at Zhejiang University.
 
-  
+- I also love playing badminton(Even if I am an ameteur, I still have a lot of fun playing it)!
