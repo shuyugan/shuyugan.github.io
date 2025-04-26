@@ -36,13 +36,13 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 💻 Research Experience
 
-- _2024.06 - 2024.11_ **Undergradute Visiting Research Intern, [ERIC Lab](http://eric-lab.soe.ucsc.edu/home), UC Santa Cruz**
+- _2024.06 - 2024.11_ **Undergradute Visiting Research Intern, [ERIC Lab](http://eric-lab.soe.ucsc.edu/home), UC Santa Cruz**  
   Advised by Prof. [Xin Eric Wang](https://eric-xw.github.io/), we introduced Agent S, an MLLM-based agent that autonomously perform complex computer tasks.
 
-- _2023.07 - 2023.09_ **Undergradute Visiting Research Intern, [mlPC](https://pages.ucsd.edu/~ztu/Group.htm), UC San Diego**
+- _2023.07 - 2023.09_ **Undergradute Visiting Research Intern, [mlPC](https://pages.ucsd.edu/~ztu/Group.htm), UC San Diego**  
   Supervised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), we injected conceptual guidance into Diffusion models’ training process to improve the quality of generatedimages and avoid making semantic mistakes.
 
-- _2023.02 - 2023.05_ **Research Intern, [IDEA Lab](https://www.idi.zju.edu.cn/space/2747.html)@ZJU**
+- _2023.02 - 2023.05_ **Research Intern, [IDEA Lab](https://www.idi.zju.edu.cn/space/2747.html)@ZJU**  
   Advised by Prof. [Lingyun Sun](http://huamin.org/), we tackled the noticable absence of cultural modalities in the multimodal co-speech gesture generation field.
 
 # 📝 Publications
@@ -61,7 +61,7 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 - Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Datase
 
-  ingyu Wu, Shi Chen, **<u>Shuyu Gan</u>**, Weijun Li, yang changyuan eric, Lingyun Sun **ACMMM 2023**
+  Jingyu Wu, Shi Chen, **<u>Shuyu Gan</u>**, Weijun Li, yang changyuan eric, Lingyun Sun **ACMMM 2023**
 
 - Agent S: An Open Agentic Framework that Uses Computers Like a Human
 
@@ -80,4 +80,4 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 - For sports, I have been a member of [Kuafu Long Distance Alliance](https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm) in ZJU for three years and I love middle and long-distance running! I have participated in 1500m race and Half Marathon at Zhejiang University.
 
-- I also love playing badminton(Even if I am an ameteur, I still have a lot of fun playing it)!
+- I also love playing badminton(Even if I am an ameteur).
