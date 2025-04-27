@@ -19,7 +19,7 @@ redirect_from:
 
 My name is Shuyu Gan(甘书宇). I am an incoming CS PhD student at UMN [Minnesota NLP](https://minnesotanlp.github.io/) and [High-Performance Data, Signal and Network Optimization Group](https://people.ece.umn.edu/~mhong/index.html), co-advised by Prof. [Dongyeop Kang](https://dykang.github.io/) and Prof. [Mingyi Hong](https://people.ece.umn.edu/~mhong/mingyi.html). My research interests focus on Generative AI, LLM Alignments and Agentic Framework Developments. My current goal is to develop general purpose agents that can automate computer work.
 
-Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclass_en) in Chu Kochen Honors College, Zhejiang University and obtained my Bachelor's degree in Computer Science and Technology in 2024. During my undergraduate, I am grateful to be advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), Prof. [Yi Yang](https://reler.net/), Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/) and Prof. [Xin Eric Wang](https://eric-xw.github.io/). Check out my [CV](https://github.com/shuyugan/shuyugan.github.io/docs/CV.pdf) for more details.
+Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclass_en) in Chu Kochen Honors College, Zhejiang University and obtained my Bachelor's degree in Computer Science and Technology in 2024. During my undergraduate, I am grateful to be advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), Prof. [Yi Yang](https://reler.net/), Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/) and Prof. [Xin Eric Wang](https://eric-xw.github.io/). Check out my [CV](https://github.com/shuyugan/shuyugan.github.io/blob/main/docs/CV.pdf) for more details.
 
 # 📖 Educations
 
