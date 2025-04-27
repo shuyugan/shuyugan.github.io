@@ -7,7 +7,7 @@
 
 # Site Settings
 title: "Shuyu's Page"
-description: "Incoming UMN CS PhD."
+description: "Incoming UMN CS PhD"
 repository: "shuyugan/shuyugan.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -57,7 +57,7 @@ author:
   xing:
   youtube:
   wikipedia:
-  CV: "docs/CV.pdf"
+  cv: "docs/CV.pdf"
 
 # Reading Files
 include:
