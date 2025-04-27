@@ -20,6 +20,7 @@ bing_site_verification: # get bing_site_verification from https://www.bing.com/w
 baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
+# dadsa
 author:
   name: "Shuyu Gan"
   avatar: "images/me.jpg"
