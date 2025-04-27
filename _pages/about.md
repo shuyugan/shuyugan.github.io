@@ -19,7 +19,7 @@ redirect_from:
 
 My name is Shuyu Gan(甘书宇). I am an incoming CS PhD student at UMN [Minnesota NLP](https://minnesotanlp.github.io/) and [High-Performance Data, Signal and Network Optimization Group](https://people.ece.umn.edu/~mhong/index.html), co-advised by Prof. [Dongyeop Kang](https://dykang.github.io/) and Prof. [Mingyi Hong](https://people.ece.umn.edu/~mhong/mingyi.html). My research interests focus on Generative AI, LLM Alignments and Agentic Framework Developments. My current goal is to develop general purpose agents that can automate computer work.
 
-Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclass_en) in Chu Kochen Honors College, Zhejiang University and obtained my Bachelor's degree in Computer Science and Technology in 2024. During my undergraduate, I am grateful to be advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), Prof. [Yi Yang](https://reler.net/), Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/) and Prof. [Xin Eric Wang](https://eric-xw.github.io/).
+Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclass_en) in Chu Kochen Honors College, Zhejiang University and obtained my Bachelor's degree in Computer Science and Technology in 2024. During my undergraduate, I am grateful to be advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), Prof. [Yi Yang](https://reler.net/), Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/) and Prof. [Xin Eric Wang](https://eric-xw.github.io/). Check out my [CV](docs/CV.pdf) for more details.
 
 # 📖 Educations
 
@@ -29,9 +29,9 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 🔥 News
 
-- _2025.03_: &nbsp;🤖 Joined Zhipu AI as a research intern. We want to build a general, robust API-based Computer Use Agent!
+- _2025.03_: &nbsp;🤖 Joined [Zhipu AI](https://www.zhipuai.cn/) as a research intern. We want to build a general, robust API-based Computer Use Agent!
 - _2025.01_: &nbsp;🎉🎉 Agent S was accepted by ICLR 2025! Thanks to all my collaborators!
-- _2024.6_: &nbsp;👋👋 Graduated from Zhejiang University and nominated for Outstanding Graduates of Zhejiang University. Bye ZJU!
+- _2024.06_: &nbsp;👋👋 Graduated from Zhejiang University and nominated for Outstanding Graduates of Zhejiang University. Bye ZJU!
 - _2023.07_: &nbsp;🎉🎉 One paper accepted by ACMMM 2023.
 
 # 💻 Research Experience
@@ -42,8 +42,8 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 - _2023.07 - 2023.09_ **Undergradute Visiting Research Intern, [mlPC](https://pages.ucsd.edu/~ztu/Group.htm), UC San Diego**  
   Supervised by Prof. [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), we injected conceptual guidance into Diffusion models’ training process to improve the quality of generatedimages and avoid making semantic mistakes.
 
-- _2023.02 - 2023.05_ **Research Intern, [IDEA Lab](https://www.idi.zju.edu.cn/space/2747.html)@ZJU**  
-  Advised by Prof. [Lingyun Sun](http://huamin.org/), we tackled the noticable absence of cultural modalities in the multimodal co-speech gesture generation field.
+- _2023.02 - 2023.05_ **Research Intern, [IDEA Lab](https://www.idi.zju.edu.cn/space/2747.html), ZJU**  
+  Advised by Prof. [Lingyun Sun](https://person.zju.edu.cn/en/lingyun), we tackled the noticable absence of cultural modalities in the multimodal co-speech gesture generation field.
 
 # 📝 Publications
 
