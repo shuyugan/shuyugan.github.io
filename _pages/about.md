@@ -29,7 +29,6 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 🔥 News
 
-- _2025.03_: &nbsp;🤖🤖 Joined [Zhipu AI](https://www.zhipuai.cn/) as a research intern. We want to build a general, robust API-based Computer Use Agent!
 - _2025.01_: &nbsp;🎉🎉 Agent S was accepted by ICLR 2025! Thanks to all my collaborators!
 - _2024.06_: &nbsp;👋👋 Graduated from Zhejiang University and nominated for Outstanding Graduates of Zhejiang University. Bye ZJU!
 - _2023.07_: &nbsp;🎉🎉 One paper accepted by ACMMM 2023.
@@ -76,7 +75,7 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 🎮🏸🏃 Miscellaneous
 
-- I love playing FPS games in my spare time, especially CS2 and Valoriant!
+- I love playing FPS games in my spare time, especially CS2 and Valorant!
 
 - For sports, I have been a member of [Kuafu Long Distance Alliance](https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm) in ZJU for three years and I love middle and long-distance running! I have participated in 1500m race and Half Marathon at Zhejiang University.
 
