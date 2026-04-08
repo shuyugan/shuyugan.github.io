@@ -102,7 +102,7 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 🎮🏸🏃 Miscellaneous
 
-- I love playing FPS games in my spare time, especially CS2 and Valoriant!
+- I love playing FPS games in my spare time, especially CS2 and Valorant!
 
 - For sports, I have been a member of [Kuafu Long Distance Alliance](https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm) in ZJU for three years and I love middle and long-distance running! I have participated in 1500m race and Half Marathon at Zhejiang University.
 
