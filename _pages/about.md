@@ -29,11 +29,16 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 
 # 🔥 News
 
+- _2026.04_: &nbsp;🎉🎉 [Scaling Unverifiable Rewards](https://arxiv.org/abs/2512.22650) was accepted to ACL 2026 Findings!
+- _2025.08_: &nbsp;🏆🏆 [A2P-Vis](https://arxiv.org/abs/2512.22101) received the Honorable Mention Award at VISxGenAI Workshop@VIS 2025!
 - _2025.01_: &nbsp;🎉🎉 Agent S was accepted by ICLR 2025! Thanks to all my collaborators!
 - _2024.06_: &nbsp;👋👋 Graduated from Zhejiang University and nominated for Outstanding Graduates of Zhejiang University. Bye ZJU!
 - _2023.07_: &nbsp;🎉🎉 One paper accepted by ACMMM 2023.
 
 # 💻 Research Experience
+
+- _2025.06 - Present_ **Graduate Research Assistant, [Minnesota NLP](https://minnesotanlp.github.io/) & [OptimAI-Lab](https://people.ece.umn.edu/~mhong/index.html), University of Minnesota**  
+  Co-advised by Prof. [Dongyeop Kang](https://dykang.github.io/) and Prof. [Mingyi Hong](https://people.ece.umn.edu/~mhong/mingyi.html), working on Agentic AI and Inference Test-Time Scaling.
 
 - _2024.06 - 2024.11_ **Undergradute Visiting Research Intern, [ERIC Lab](http://eric-lab.soe.ucsc.edu/home), UC Santa Cruz**  
   Advised by Prof. [Xin Eric Wang](https://eric-xw.github.io/), we introduced Agent S, an MLLM-based agent that autonomously perform complex computer tasks.
@@ -58,13 +63,25 @@ Previously, I was a member of [Turing Class](http://www.cs.zju.edu.cn/turingclas
 </div>
 </div> -->
 
-- Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Datase
+- [Scaling Unverifiable Rewards: A Case Study on Visual Insights](https://arxiv.org/abs/2512.22650)
 
-  Jingyu Wu, Shi Chen, **<u>Shuyu Gan</u>**, Weijun Li, yang changyuan eric, Lingyun Sun **ACMMM 2023**
+  **<u>Shuyu Gan</u>**, J Mooney, P Hao, R Wang, M Hong, Q Wang, D Kang **ACL 2026 Findings**
 
-- Agent S: An Open Agentic Framework that Uses Computers Like a Human
+- [A2P-Vis: an Analyzer-to-Presenter Agentic Pipeline for Visual Insights Generation and Reporting](https://arxiv.org/abs/2512.22101)
+
+  **<u>Shuyu Gan</u>**, R Wang, J Mooney, D Kang **VISxGenAI Workshop@VIS 2025 (Honorable Mention)**
+
+- [Do LLMs Recognize Your Latent Preferences? A Benchmark for Latent Information Discovery in Personalized Interaction](https://arxiv.org/abs/2510.17132)
+
+  I Tsaknakis, B Song, **<u>Shuyu Gan</u>**, D Kang, A Garcia, G Liu, C Fleming, M Hong **arXiv 2025**
+
+- [Agent S: An Open Agentic Framework that Uses Computers Like a Human](https://arxiv.org/abs/2410.08164)
 
   Saaket Agashe, Jiuzhou Han, **<u>Shuyu Gan</u>**, Jiachen Yang, Ang Li, Xin Eric Wang **ICLR 2025**
+
+- [Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Dataset](https://dl.acm.org/doi/10.1145/3581783.3611705)
+
+  Jingyu Wu, Shi Chen, **<u>Shuyu Gan</u>**, Weijun Li, Changyuan Yang, Lingyun Sun **ACMMM 2023**
 
 <!-- # 🎖 Honors and Awards
 
