@@ -10,9 +10,9 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   (function () {
-    var theme = 'dark';
+    var theme = 'light';
     try {
-      theme = localStorage.getItem('shuyu-theme') || 'dark';
+      theme = localStorage.getItem('shuyu-theme-v2') || 'light';
     } catch (error) {
       console.warn('Unable to read the saved color theme.', error);
     }

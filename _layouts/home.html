@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}" class="no-js" data-theme="dark">
+<html lang="{{ site.lang | default: 'en' }}" class="no-js" data-theme="light">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -13,13 +13,6 @@ layout: compress
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
     {% include browser-upgrade.html %}
-
-    <div class="scroll-progress" aria-hidden="true">
-      <span id="scroll-progress-bar"></span>
-    </div>
-    <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
-    <div class="ambient-orb ambient-orb--one" aria-hidden="true"></div>
-    <div class="ambient-orb ambient-orb--two" aria-hidden="true"></div>
 
     {% include masthead.html %}
 
@@ -31,13 +24,12 @@ layout: compress
       <div class="home-container">
         <div class="site-footer__top">
           <a class="site-footer__brand" href="#top" aria-label="Back to top">
-            <span class="site-footer__mark">SG</span>
             <span>
               <strong>Shuyu Gan</strong>
-              <small>Agentic AI researcher</small>
+              <small>PhD Student in Computer Science</small>
             </span>
           </a>
-          <p>Building general-purpose agents that can reason, adapt, and use computers to get real work done.</p>
+          <p>University of Minnesota. Research interests include agentic AI, LLM alignment, and inference-time reasoning.</p>
           <div class="site-footer__links">
             <a href="mailto:gan00067@umn.edu">Email</a>
             <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
@@ -47,7 +39,7 @@ layout: compress
         </div>
         <div class="site-footer__bottom">
           <span>&copy; {{ site.time | date: '%Y' }} Shuyu Gan</span>
-          <span>Designed for curiosity. Built on GitHub Pages.</span>
+          <span>Last updated {{ site.time | date: '%B %Y' }}</span>
         </div>
       </div>
     </footer>

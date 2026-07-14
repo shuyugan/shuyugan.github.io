@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js" data-theme="dark">
+<html lang="en" class="no-js" data-theme="light">
   <head>
     <meta charset="utf-8">
 
@@ -10,21 +10,21 @@
 
 
 
-<title>Shuyu Gan | AI Agents, LLM Alignment, and Agentic Systems</title>
-<meta name="description" content="Shuyu Gan is a CS PhD student at the University of Minnesota building general-purpose AI agents that reason, adapt, and use computers.">
+<title>Shuyu Gan | PhD Student at the University of Minnesota</title>
+<meta name="description" content="Shuyu Gan is a Computer Science PhD student at the University of Minnesota working on agentic AI, LLM alignment, and inference-time reasoning.">
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Shuyu Gan">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Shuyu Gan | AI Agents, LLM Alignment, and Agentic Systems">
-<meta property="og:description" content="Shuyu Gan is a CS PhD student at the University of Minnesota building general-purpose AI agents that reason, adapt, and use computers.">
+<meta property="og:title" content="Shuyu Gan | PhD Student at the University of Minnesota">
+<meta property="og:description" content="Shuyu Gan is a Computer Science PhD student at the University of Minnesota working on agentic AI, LLM alignment, and inference-time reasoning.">
 <meta property="og:url" content="https://shuyugan.github.io/">
 <meta property="og:image" content="https://shuyugan.github.io/images/me.jpg">
 <link rel="canonical" href="https://shuyugan.github.io/">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Shuyu Gan | AI Agents, LLM Alignment, and Agentic Systems">
-<meta name="twitter:description" content="Shuyu Gan is a CS PhD student at the University of Minnesota building general-purpose AI agents that reason, adapt, and use computers.">
+<meta name="twitter:title" content="Shuyu Gan | PhD Student at the University of Minnesota">
+<meta name="twitter:description" content="Shuyu Gan is a Computer Science PhD student at the University of Minnesota working on agentic AI, LLM alignment, and inference-time reasoning.">
 <meta name="twitter:image" content="https://shuyugan.github.io/images/me.jpg">
 
 
@@ -41,9 +41,9 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   (function () {
-    var theme = 'dark';
+    var theme = 'light';
     try {
-      theme = localStorage.getItem('shuyu-theme') || 'dark';
+      theme = localStorage.getItem('shuyu-theme-v2') || 'light';
     } catch (error) {
       console.warn('Unable to read the saved color theme.', error);
     }
@@ -52,7 +52,7 @@
 </script>
 
 
-<link rel="stylesheet" href="/assets/css/main.css?v=dd31e9913aa8b52e2b0b11b7d0129e1919e64036">
+<link rel="stylesheet" href="/assets/css/main.css?v=860d45f4645c8f721dc4c4ac0162cea3a3a551cd">
 
 <meta http-equiv="cleartype" content="on">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -60,12 +60,12 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 <link rel="manifest" href="/images/site.webmanifest">
 
-<meta name="msapplication-TileColor" content="#070b14">
-<meta id="theme-color-meta" name="theme-color" content="#070b14">
+<meta name="msapplication-TileColor" content="#faf9f6">
+<meta id="theme-color-meta" name="theme-color" content="#faf9f6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/academicons.css?v=dd31e9913aa8b52e2b0b11b7d0129e1919e64036">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/academicons.css?v=860d45f4645c8f721dc4c4ac0162cea3a3a551cd">
 
   </head>
 
@@ -76,20 +76,12 @@
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
 
-    <div class="scroll-progress" aria-hidden="true">
-      <span id="scroll-progress-bar"></span>
-    </div>
-    <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
-    <div class="ambient-orb ambient-orb--one" aria-hidden="true"></div>
-    <div class="ambient-orb ambient-orb--two" aria-hidden="true"></div>
-
     <header class="masthead" id="site-header">
   <div class="masthead__inner-wrap">
     <a class="site-brand" href="#top" aria-label="Shuyu Gan, back to top">
-      <span class="site-brand__mark" aria-hidden="true">SG</span>
       <span class="site-brand__text">
         <strong>Shuyu Gan</strong>
-        <small>Agentic AI Researcher</small>
+        <small>PhD Student in Computer Science</small>
       </span>
     </a>
 
@@ -97,10 +89,10 @@
       <ul class="site-nav__links">
         <li><a class="site-nav__link" href="#about">About</a></li>
         <li><a class="site-nav__link" href="#research">Research</a></li>
-        <li><a class="site-nav__link" href="#news">Updates</a></li>
-        <li><a class="site-nav__link" href="#journey">Journey</a></li>
+        <li><a class="site-nav__link" href="#news">News</a></li>
+        <li><a class="site-nav__link" href="#journey">Experience</a></li>
         <li><a class="site-nav__link" href="#publications">Publications</a></li>
-        <li><a class="site-nav__link" href="#beyond">Beyond</a></li>
+        <li><a class="site-nav__link" href="#beyond">Personal</a></li>
         <li>
           <a class="site-nav__cv" href="/docs/CV.pdf" target="_blank" rel="noopener noreferrer">
             CV <span aria-hidden="true">&nearr;</span>
@@ -134,427 +126,279 @@
   <div class="home-container">
     <div class="hero__grid">
       <div class="hero__copy is-visible" data-reveal="">
-        <div class="hero__eyebrow">
-          <span class="status-dot" aria-hidden="true"></span>
-          CS PhD @ University of Minnesota
-        </div>
-
+        <p class="hero__position">PhD Student in Computer Science</p>
         <h1 id="hero-title">
-          Building AI agents that
-          <span class="gradient-text">reason, adapt, and act.</span>
+          Shuyu Gan
+          <span class="hero__chinese">甘书宇</span>
         </h1>
+        <p class="hero__pronunciation">Pinyin: Gān Shūyǔ</p>
+        <p class="hero__affiliation">University of Minnesota, Twin Cities</p>
 
-        <p class="hero__dynamic">
-          I work on
-          <span id="rotating-focus" data-words="computer-use agents|inference-time reasoning|aligned LLM systems|agentic workflows">computer-use agents</span><span class="typing-cursor" aria-hidden="true"></span>
-        </p>
-
-        <p class="hero__intro">
-          I am <strong>Shuyu Gan</strong> (甘书宇), a Computer Science PhD student working with
-          <a href="https://minnesotanlp.github.io/" target="_blank" rel="noopener noreferrer">Minnesota NLP</a>
-          and the
-          <a href="https://people.ece.umn.edu/~mhong/index.html" target="_blank" rel="noopener noreferrer">Optimization for AI Lab</a>.
-          I am co-advised by
-          <a href="https://dykang.github.io/" target="_blank" rel="noopener noreferrer">Prof. Dongyeop Kang</a>
-          and
-          <a href="https://people.ece.umn.edu/~mhong/mingyi.html" target="_blank" rel="noopener noreferrer">Prof. Mingyi Hong</a>.
-          My goal is to develop general-purpose agents that can reliably automate complex computer work.
-        </p>
+        <div class="hero__bio">
+          <p>
+            I am a Computer Science PhD student at the University of Minnesota, where I work with
+            <a href="https://minnesotanlp.github.io/" target="_blank" rel="noopener noreferrer">Minnesota NLP</a>
+            and the
+            <a href="https://people.ece.umn.edu/~mhong/index.html" target="_blank" rel="noopener noreferrer">Optimization for AI Lab</a>.
+            I am co-advised by
+            <a href="https://dykang.github.io/" target="_blank" rel="noopener noreferrer">Prof. Dongyeop Kang</a>
+            and
+            <a href="https://people.ece.umn.edu/~mhong/mingyi.html" target="_blank" rel="noopener noreferrer">Prof. Mingyi Hong</a>.
+          </p>
+          <p>
+            My research interests include agentic AI, LLM alignment, inference-time reasoning, and computer-use agents.
+            My long-term goal is to develop general-purpose agents that can reliably complete complex computer tasks.
+          </p>
+          <p>
+            I received my bachelor's degree in Computer Science and Technology from the
+            <a href="http://www.cs.zju.edu.cn/turingclass_en" target="_blank" rel="noopener noreferrer">Turing Class</a>
+            at Zhejiang University in 2024.
+          </p>
+        </div>
 
         <div class="hero__actions">
-          <a class="button button--primary" href="#research">
-            Explore my research
-            <span aria-hidden="true">&darr;</span>
-          </a>
-          <a class="button button--ghost" href="/docs/CV.pdf" target="_blank" rel="noopener noreferrer">
-            Read my CV
-            <span aria-hidden="true">&nearr;</span>
-          </a>
-        </div>
-
-        <div class="hero__socials" aria-label="Profile links">
-          <a href="mailto:gan00067@umn.edu"><i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span></a>
-          <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Scholar</span></a>
-          <a href="https://github.com/shuyugan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
-          <a href="https://www.linkedin.com/in/shuyu-gan-18286b286" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
-          <a href="https://x.com/ShuyuGan" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i><span>X / Twitter</span></a>
+          <a class="button button--primary" href="/docs/CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
+          <a class="button button--secondary" href="mailto:gan00067@umn.edu">Email</a>
         </div>
       </div>
 
-      <div class="hero__visual is-visible" data-reveal="" style="--delay: 120ms">
-        <div class="portrait-orbit portrait-orbit--outer" aria-hidden="true"></div>
-        <div class="portrait-orbit portrait-orbit--inner" aria-hidden="true"></div>
-        <span class="floating-tag floating-tag--one" aria-hidden="true">AGENTS</span>
-        <span class="floating-tag floating-tag--two" aria-hidden="true">ALIGNMENT</span>
-        <span class="floating-tag floating-tag--three" aria-hidden="true">REASONING</span>
-
-        <article class="portrait-card" id="portrait-card">
-          <div class="portrait-card__top">
-            <span>researcher.profile</span>
-            <span class="portrait-card__live"><i aria-hidden="true"></i> ACTIVE</span>
+      <aside class="profile-card is-visible" data-reveal="" aria-label="Profile">
+        <img src="/images/me.jpg" alt="Portrait of Shuyu Gan" />
+        <div class="profile-card__links" aria-label="Academic and social profiles">
+          <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
+          <a href="https://github.com/shuyugan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/shuyu-gan-18286b286" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="https://orcid.org/0009-0006-2030-3393" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
+        </div>
+        <dl class="profile-card__details">
+          <div>
+            <dt>Location</dt>
+            <dd>Minneapolis, Minnesota</dd>
           </div>
-          <div class="portrait-card__image">
-            <img src="/images/me.jpg" alt="Portrait of Shuyu Gan" />
-            <div class="portrait-card__scan" aria-hidden="true"></div>
+          <div>
+            <dt>Email</dt>
+            <dd><a href="mailto:gan00067@umn.edu">gan00067@umn.edu</a></dd>
           </div>
-          <div class="portrait-card__meta">
-            <div>
-              <strong>Shuyu Gan</strong>
-              <span>Agentic AI Researcher</span>
-            </div>
-            <span class="portrait-card__location">MSP / CT</span>
-          </div>
-        </article>
-      </div>
-
-      <div class="hero__metrics is-visible" data-reveal="" style="--delay: 220ms" aria-label="Career highlights">
-        <div class="metric">
-          <strong>COLM '26</strong>
-          <span>LLM personalization</span>
-        </div>
-        <div class="metric">
-          <strong>ICLR '25</strong>
-          <span>Agent S</span>
-        </div>
-        <div class="metric">
-          <strong>Honorable Mention</strong>
-          <span>VISxGenAI 2025</span>
-        </div>
-        <div class="metric">
-          <strong>5 works</strong>
-          <span>Selected below</span>
-        </div>
-      </div>
+        </dl>
+      </aside>
     </div>
   </div>
 </section>
 
 <section class="home-section" id="research" aria-labelledby="research-title">
   <div class="home-container">
-    <div class="section-heading" data-reveal="">
-      <div>
-        <span class="section-kicker">01 / Research</span>
-        <h2 id="research-title">From capable models to dependable digital collaborators.</h2>
-      </div>
-      <p>
-        I study the algorithms, feedback signals, and interaction frameworks needed to turn foundation models into agents that can plan, learn, and complete real-world tasks.
-      </p>
-    </div>
+    <header class="section-heading" data-reveal="">
+      <h2 id="research-title">Research Interests</h2>
+    </header>
 
-    <div class="focus-grid">
-      <article class="focus-card interactive-card" data-reveal="" style="--delay: 60ms; --card-accent: #67e8f9;">
-        <div class="focus-card__top">
-          <span class="focus-card__index">01</span>
-          <span class="focus-card__signal"><i></i><i></i><i></i></span>
-        </div>
-        <h3>Agents that use computers</h3>
-        <p>
-          Building multimodal agents that perceive interfaces, reason across applications, and execute long-horizon workflows with less human intervention.
-        </p>
-        <div class="focus-card__tags">
-          <span>Computer Use</span>
-          <span>Planning</span>
-          <span>Multimodal AI</span>
-        </div>
-        <a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Featured work: Agent S <span aria-hidden="true">&nearr;</span></a>
+    <div class="research-grid">
+      <article class="research-item" data-reveal="">
+        <h3>Computer-Use Agents</h3>
+        <p>Multimodal agents that perceive graphical interfaces, plan across applications, and execute long-horizon computer tasks.</p>
+        <a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a>
       </article>
 
-      <article class="focus-card interactive-card" data-reveal="" style="--delay: 120ms; --card-accent: #a78bfa;">
-        <div class="focus-card__top">
-          <span class="focus-card__index">02</span>
-          <span class="focus-card__signal"><i></i><i></i><i></i></span>
-        </div>
-        <h3>Reasoning with imperfect feedback</h3>
-        <p>
-          Exploring inference-time scaling and learning signals for tasks where quality is subjective, expensive, or difficult to verify automatically.
-        </p>
-        <div class="focus-card__tags">
-          <span>Test-Time Scaling</span>
-          <span>Rewards</span>
-          <span>Evaluation</span>
-        </div>
-        <a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Featured work: Scaling Unverifiable Rewards <span aria-hidden="true">&nearr;</span></a>
+      <article class="research-item" data-reveal="">
+        <h3>Inference-Time Reasoning</h3>
+        <p>Methods for improving agent and language-model reasoning at inference time, including settings with difficult-to-verify feedback.</p>
+        <a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a>
       </article>
 
-      <article class="focus-card interactive-card" data-reveal="" style="--delay: 180ms; --card-accent: #86efac;">
-        <div class="focus-card__top">
-          <span class="focus-card__index">03</span>
-          <span class="focus-card__signal"><i></i><i></i><i></i></span>
-        </div>
-        <h3>Alignment through interaction</h3>
-        <p>
-          Designing models that discover latent user preferences, adapt to individual goals, and remain useful and controllable over extended interactions.
-        </p>
-        <div class="focus-card__tags">
-          <span>LLM Alignment</span>
-          <span>Personalization</span>
-          <span>Human-AI Interaction</span>
-        </div>
-        <a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Featured work: Latent Preferences <span aria-hidden="true">&nearr;</span></a>
+      <article class="research-item" data-reveal="">
+        <h3>Alignment and Personalization</h3>
+        <p>Evaluation and modeling of latent user preferences for more adaptive and controllable language-model interactions.</p>
+        <a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Latent Preferences</a>
       </article>
     </div>
   </div>
 </section>
 
-<section class="home-section home-section--tinted" id="news" aria-labelledby="news-title">
+<section class="home-section home-section--alt" id="news" aria-labelledby="news-title">
   <div class="home-container">
-    <div class="news-layout">
-      <div class="news-intro" data-reveal="">
-        <span class="section-kicker">02 / Updates</span>
-        <h2 id="news-title">Signals from the journey.</h2>
-        <p>Recent papers, milestones, and moments worth remembering.</p>
-        <a class="text-link" href="#publications">Jump to publications <span aria-hidden="true">&darr;</span></a>
-      </div>
+    <header class="section-heading" data-reveal="">
+      <h2 id="news-title">News</h2>
+    </header>
 
-      <div class="news-timeline" role="list">
-        <article class="news-item" role="listitem" data-reveal="">
-          <time datetime="2026-04">Apr 2026</time>
-          <div>
-            <span class="news-item__label">Paper</span>
-            <p><a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a> was accepted to <strong>ACL 2026 Findings</strong>.</p>
-          </div>
-        </article>
-        <article class="news-item" role="listitem" data-reveal="" style="--delay: 60ms">
-          <time datetime="2025-08">Aug 2025</time>
-          <div>
-            <span class="news-item__label news-item__label--award">Award</span>
-            <p><a href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">A2P-Vis</a> received an <strong>Honorable Mention</strong> at the VISxGenAI Workshop @ IEEE VIS 2025.</p>
-          </div>
-        </article>
-        <article class="news-item" role="listitem" data-reveal="" style="--delay: 120ms">
-          <time datetime="2025-01">Jan 2025</time>
-          <div>
-            <span class="news-item__label">Paper</span>
-            <p><a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a> was accepted to <strong>ICLR 2025</strong>.</p>
-          </div>
-        </article>
-        <article class="news-item" role="listitem" data-reveal="" style="--delay: 180ms">
-          <time datetime="2024-06">Jun 2024</time>
-          <div>
-            <span class="news-item__label news-item__label--milestone">Milestone</span>
-            <p>Graduated from Zhejiang University and was nominated as an <strong>Outstanding Graduate of Zhejiang University</strong>.</p>
-          </div>
-        </article>
-        <article class="news-item" role="listitem" data-reveal="" style="--delay: 240ms">
-          <time datetime="2023-07">Jul 2023</time>
-          <div>
-            <span class="news-item__label">Paper</span>
-            <p>Our work on culture-aware multimodal gesture generation was accepted to <strong>ACM Multimedia 2023</strong>.</p>
-          </div>
-        </article>
-      </div>
+    <div class="news-list">
+      <article class="news-item" data-reveal="">
+        <time datetime="2026-04">Apr 2026</time>
+        <p><a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a> was accepted to <strong>ACL 2026 Findings</strong>.</p>
+      </article>
+      <article class="news-item" data-reveal="">
+        <time datetime="2026">2026</time>
+        <p><a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Do LLMs Recognize Your Latent Preferences?</a> was accepted to <strong>COLM 2026</strong>.</p>
+      </article>
+      <article class="news-item" data-reveal="">
+        <time datetime="2025-08">Aug 2025</time>
+        <p><a href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">A2P-Vis</a> received an <strong>Honorable Mention</strong> at the VISxGenAI Workshop at IEEE VIS 2025.</p>
+      </article>
+      <article class="news-item" data-reveal="">
+        <time datetime="2025-01">Jan 2025</time>
+        <p><a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a> was accepted to <strong>ICLR 2025</strong>.</p>
+      </article>
+      <article class="news-item" data-reveal="">
+        <time datetime="2024-06">Jun 2024</time>
+        <p>I graduated from Zhejiang University and was nominated as an <strong>Outstanding Graduate of Zhejiang University</strong>.</p>
+      </article>
     </div>
   </div>
 </section>
 
-<section class="home-section" id="journey" aria-labelledby="journey-title">
+<section class="home-section" id="journey" aria-labelledby="experience-title">
   <div class="home-container">
-    <div class="section-heading" data-reveal="">
+    <div class="experience-layout">
       <div>
-        <span class="section-kicker">03 / Journey</span>
-        <h2 id="journey-title">Learning across labs, disciplines, and ambitious problems.</h2>
-      </div>
-      <p>
-        My path spans agentic AI, multimodal generation, and human-centered systems across UMN, UCSC, UCSD, and Zhejiang University.
-      </p>
-    </div>
+        <header class="section-heading" data-reveal="">
+          <h2 id="experience-title">Research Experience</h2>
+        </header>
 
-    <div class="journey-grid">
-      <div class="journey-column">
-        <div class="subsection-heading" data-reveal="">
-          <span>Research experience</span>
-          <span>2023 - Present</span>
-        </div>
-
-        <div class="journey-timeline">
-          <article class="journey-item" data-reveal="">
-            <span class="journey-item__marker" aria-hidden="true"></span>
-            <time>Jun 2025 - Present</time>
-            <h3>Graduate Research Assistant</h3>
-            <p class="journey-item__org">
-              <a href="https://minnesotanlp.github.io/" target="_blank" rel="noopener noreferrer">Minnesota NLP</a>
-              &amp;
-              <a href="https://people.ece.umn.edu/~mhong/index.html" target="_blank" rel="noopener noreferrer">OptimAI Lab</a>,
-              University of Minnesota
-            </p>
-            <p>Researching agentic AI and inference-time scaling with Prof. Dongyeop Kang and Prof. Mingyi Hong.</p>
+        <div class="experience-list">
+          <article class="experience-item" data-reveal="">
+            <div class="experience-item__date">Jun 2025 - Present</div>
+            <div>
+              <h3>Graduate Research Assistant</h3>
+              <p class="experience-item__organization">
+                <a href="https://minnesotanlp.github.io/" target="_blank" rel="noopener noreferrer">Minnesota NLP</a>
+                and
+                <a href="https://people.ece.umn.edu/~mhong/index.html" target="_blank" rel="noopener noreferrer">OptimAI Lab</a>,
+                University of Minnesota
+              </p>
+              <p>Agentic AI and inference-time reasoning, advised by Prof. Dongyeop Kang and Prof. Mingyi Hong.</p>
+            </div>
           </article>
 
-          <article class="journey-item" data-reveal="">
-            <span class="journey-item__marker" aria-hidden="true"></span>
-            <time>Jun 2024 - Nov 2024</time>
-            <h3>Undergraduate Visiting Research Intern</h3>
-            <p class="journey-item__org"><a href="http://eric-lab.soe.ucsc.edu/home" target="_blank" rel="noopener noreferrer">ERIC Lab</a>, UC Santa Cruz</p>
-            <p>Worked with Prof. Xin Eric Wang on Agent S, an MLLM-based agent for autonomously completing complex computer tasks.</p>
+          <article class="experience-item" data-reveal="">
+            <div class="experience-item__date">Jun 2024 - Nov 2024</div>
+            <div>
+              <h3>Undergraduate Visiting Research Intern</h3>
+              <p class="experience-item__organization"><a href="http://eric-lab.soe.ucsc.edu/home" target="_blank" rel="noopener noreferrer">ERIC Lab</a>, UC Santa Cruz</p>
+              <p>Worked with Prof. Xin Eric Wang on Agent S, an MLLM-based framework for computer-use agents.</p>
+            </div>
           </article>
 
-          <article class="journey-item" data-reveal="">
-            <span class="journey-item__marker" aria-hidden="true"></span>
-            <time>Jul 2023 - Sep 2023</time>
-            <h3>Undergraduate Visiting Research Intern</h3>
-            <p class="journey-item__org"><a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener noreferrer">mlPC Lab</a>, UC San Diego</p>
-            <p>Studied concept-guided diffusion training with Prof. Zhuowen Tu to improve generation quality and semantic consistency.</p>
+          <article class="experience-item" data-reveal="">
+            <div class="experience-item__date">Jul 2023 - Sep 2023</div>
+            <div>
+              <h3>Undergraduate Visiting Research Intern</h3>
+              <p class="experience-item__organization"><a href="https://pages.ucsd.edu/~ztu/Group.htm" target="_blank" rel="noopener noreferrer">mlPC Lab</a>, UC San Diego</p>
+              <p>Studied concept-guided diffusion training with Prof. Zhuowen Tu.</p>
+            </div>
           </article>
 
-          <article class="journey-item" data-reveal="">
-            <span class="journey-item__marker" aria-hidden="true"></span>
-            <time>Feb 2023 - May 2023</time>
-            <h3>Research Intern</h3>
-            <p class="journey-item__org"><a href="https://www.idi.zju.edu.cn/space/2747.html" target="_blank" rel="noopener noreferrer">IDEA Lab</a>, Zhejiang University</p>
-            <p>Explored culture-aware multimodal co-speech gesture generation with Prof. Lingyun Sun.</p>
+          <article class="experience-item" data-reveal="">
+            <div class="experience-item__date">Feb 2023 - May 2023</div>
+            <div>
+              <h3>Research Intern</h3>
+              <p class="experience-item__organization"><a href="https://www.idi.zju.edu.cn/space/2747.html" target="_blank" rel="noopener noreferrer">IDEA Lab</a>, Zhejiang University</p>
+              <p>Worked on culture-aware multimodal co-speech gesture generation with Prof. Lingyun Sun.</p>
+            </div>
           </article>
         </div>
       </div>
 
-      <aside class="education-column">
-        <div class="subsection-heading" data-reveal="">
-          <span>Education</span>
-          <span>Foundations</span>
-        </div>
+      <aside class="education">
+        <header class="section-heading" data-reveal="">
+          <h2>Education</h2>
+        </header>
 
-        <article class="education-card interactive-card" data-reveal="">
-          <div class="education-card__year">2025 - Present</div>
+        <article class="education-item" data-reveal="">
+          <time>2025 - Present</time>
           <h3>University of Minnesota</h3>
           <p>PhD in Computer Science</p>
           <span>Minneapolis, Minnesota</span>
         </article>
 
-        <article class="education-card interactive-card" data-reveal="" style="--delay: 80ms">
-          <div class="education-card__year">2020 - 2024</div>
+        <article class="education-item" data-reveal="">
+          <time>2020 - 2024</time>
           <h3>Zhejiang University</h3>
           <p>Bachelor's in Computer Science and Technology</p>
           <span>Turing Class, Chu Kochen Honors College</span>
         </article>
 
-        <div class="education-note" data-reveal="" style="--delay: 140ms">
-          <span class="education-note__icon" aria-hidden="true">+</span>
-          <p>
-            I am grateful to have also been advised by
-            <a href="https://person.zju.edu.cn/en/lingyun" target="_blank" rel="noopener noreferrer">Lingyun Sun</a>,
-            <a href="https://reler.net/" target="_blank" rel="noopener noreferrer">Yi Yang</a>,
-            <a href="https://pages.ucsd.edu/~ztu/" target="_blank" rel="noopener noreferrer">Zhuowen Tu</a>,
-            and
-            <a href="https://eric-xw.github.io/" target="_blank" rel="noopener noreferrer">Xin Eric Wang</a>.
-          </p>
-        </div>
+        <p class="education__advisors" data-reveal="">
+          I have also been advised by
+          <a href="https://person.zju.edu.cn/en/lingyun" target="_blank" rel="noopener noreferrer">Prof. Lingyun Sun</a>,
+          <a href="https://reler.net/" target="_blank" rel="noopener noreferrer">Prof. Yi Yang</a>,
+          <a href="https://pages.ucsd.edu/~ztu/" target="_blank" rel="noopener noreferrer">Prof. Zhuowen Tu</a>,
+          and
+          <a href="https://eric-xw.github.io/" target="_blank" rel="noopener noreferrer">Prof. Xin Eric Wang</a>.
+        </p>
       </aside>
     </div>
   </div>
 </section>
 
-<section class="home-section home-section--tinted" id="publications" aria-labelledby="publications-title">
+<section class="home-section home-section--alt" id="publications" aria-labelledby="publications-title">
   <div class="home-container">
-    <div class="section-heading" data-reveal="">
-      <div>
-        <span class="section-kicker">04 / Selected work</span>
-        <h2 id="publications-title">Research built to move ideas into working systems.</h2>
-      </div>
-      <p>
-        Selected publications across agentic AI, visual insight generation, personalization, and multimodal systems.
-        <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer">View Google Scholar <span aria-hidden="true">&nearr;</span></a>
-      </p>
-    </div>
+    <header class="section-heading section-heading--with-link" data-reveal="">
+      <h2 id="publications-title">Selected Publications</h2>
+      <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+    </header>
 
-    <div class="publication-grid">
-      <article class="publication-card publication-card--featured interactive-card" data-reveal="">
-        <div class="publication-card__meta">
-          <span class="venue-badge">ACL 2026 Findings</span>
-          <span>2026</span>
+    <div class="publication-list">
+      <article class="publication-item" data-reveal="">
+        <div class="publication-item__venue">ACL Findings 2026</div>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards: A Case Study on Visual Insights</a></h3>
+          <p><strong>Shuyu Gan</strong>, J. Mooney, P. Hao, R. Wang, M. Hong, Q. Wang, D. Kang</p>
+          <a class="publication-item__paper" href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
-        <h3><a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards: A Case Study on Visual Insights</a></h3>
-        <p class="publication-card__authors"><strong>Shuyu Gan</strong>, J. Mooney, P. Hao, R. Wang, M. Hong, Q. Wang, D. Kang</p>
-        <p class="publication-card__summary">Investigating how to scale learning signals for visual insight generation when quality is difficult to verify automatically.</p>
-        <a class="publication-card__link" href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">&nearr;</span></a>
       </article>
 
-      <article class="publication-card interactive-card" data-reveal="" style="--delay: 60ms">
-        <div class="publication-card__meta">
-          <span class="venue-badge venue-badge--award">Honorable Mention</span>
-          <span>2025</span>
+      <article class="publication-item" data-reveal="">
+        <div class="publication-item__venue">COLM 2026</div>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Do LLMs Recognize Your Latent Preferences? A Benchmark for Latent Information Discovery in Personalized Interaction</a></h3>
+          <p>I. Tsaknakis, B. Song, <strong>Shuyu Gan</strong>, D. Kang, A. Garcia, G. Liu, C. Fleming, M. Hong</p>
+          <a class="publication-item__paper" href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
-        <h3><a href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">A2P-Vis: An Analyzer-to-Presenter Agentic Pipeline for Visual Insights Generation and Reporting</a></h3>
-        <p class="publication-card__authors"><strong>Shuyu Gan</strong>, R. Wang, J. Mooney, D. Kang</p>
-        <p class="publication-card__summary">An agentic pipeline that turns visual analysis into structured, presentation-ready insight reports.</p>
-        <a class="publication-card__link" href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">&nearr;</span></a>
       </article>
 
-      <article class="publication-card interactive-card" data-reveal="" style="--delay: 120ms">
-        <div class="publication-card__meta">
-          <span class="venue-badge">COLM 2026</span>
-          <span>2026</span>
+      <article class="publication-item" data-reveal="">
+        <div class="publication-item__venue">VISxGenAI 2025</div>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">A2P-Vis: An Analyzer-to-Presenter Agentic Pipeline for Visual Insights Generation and Reporting</a></h3>
+          <p><strong>Shuyu Gan</strong>, R. Wang, J. Mooney, D. Kang</p>
+          <p class="publication-item__note">Honorable Mention</p>
+          <a class="publication-item__paper" href="https://arxiv.org/abs/2512.22101" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
-        <h3><a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Do LLMs Recognize Your Latent Preferences?</a></h3>
-        <p class="publication-card__authors">I. Tsaknakis, B. Song, <strong>Shuyu Gan</strong>, D. Kang, A. Garcia, G. Liu, C. Fleming, M. Hong</p>
-        <p class="publication-card__summary">A benchmark for testing whether language models can uncover latent user preferences through personalized interaction.</p>
-        <a class="publication-card__link" href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">&nearr;</span></a>
       </article>
 
-      <article class="publication-card interactive-card" data-reveal="" style="--delay: 180ms">
-        <div class="publication-card__meta">
-          <span class="venue-badge">ICLR 2025</span>
-          <span>2025</span>
+      <article class="publication-item" data-reveal="">
+        <div class="publication-item__venue">ICLR 2025</div>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S: An Open Agentic Framework that Uses Computers Like a Human</a></h3>
+          <p>S. Agashe, J. Han, <strong>Shuyu Gan</strong>, J. Yang, A. Li, X. E. Wang</p>
+          <a class="publication-item__paper" href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
-        <h3><a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S: An Open Agentic Framework that Uses Computers Like a Human</a></h3>
-        <p class="publication-card__authors">S. Agashe, J. Han, <strong>Shuyu Gan</strong>, J. Yang, A. Li, X. E. Wang</p>
-        <p class="publication-card__summary">An open multimodal agent framework for autonomously performing complex, multi-step computer tasks.</p>
-        <a class="publication-card__link" href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">&nearr;</span></a>
       </article>
 
-      <article class="publication-card interactive-card" data-reveal="" style="--delay: 240ms">
-        <div class="publication-card__meta">
-          <span class="venue-badge venue-badge--warm">ACM MM 2023</span>
-          <span>2023</span>
+      <article class="publication-item" data-reveal="">
+        <div class="publication-item__venue">ACM MM 2023</div>
+        <div>
+          <h3><a href="https://dl.acm.org/doi/10.1145/3581783.3611705" target="_blank" rel="noopener noreferrer">Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Dataset</a></h3>
+          <p>J. Wu, S. Chen, <strong>Shuyu Gan</strong>, W. Li, C. Yang, L. Sun</p>
+          <a class="publication-item__paper" href="https://dl.acm.org/doi/10.1145/3581783.3611705" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
-        <h3><a href="https://dl.acm.org/doi/10.1145/3581783.3611705" target="_blank" rel="noopener noreferrer">Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Dataset</a></h3>
-        <p class="publication-card__authors">J. Wu, S. Chen, <strong>Shuyu Gan</strong>, W. Li, C. Yang, L. Sun</p>
-        <p class="publication-card__summary">Culture-aware co-speech gesture generation grounded in a multi-culture multimodal gesture dataset.</p>
-        <a class="publication-card__link" href="https://dl.acm.org/doi/10.1145/3581783.3611705" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">&nearr;</span></a>
       </article>
     </div>
   </div>
 </section>
 
-<section class="home-section" id="beyond" aria-labelledby="beyond-title">
+<section class="home-section" id="beyond" aria-labelledby="personal-title">
   <div class="home-container">
-    <div class="section-heading" data-reveal="">
-      <div>
-        <span class="section-kicker">05 / Beyond research</span>
-        <h2 id="beyond-title">A life with games, miles, and fast rallies.</h2>
-      </div>
-      <p>Research is a big part of my world, but not the whole map.</p>
-    </div>
+    <header class="section-heading" data-reveal="">
+      <h2 id="personal-title">Personal</h2>
+    </header>
 
-    <div class="life-grid">
-      <article class="life-card interactive-card" data-reveal="">
-        <span class="life-card__number">01</span>
-        <div class="life-card__icon" aria-hidden="true">&lt;/&gt;</div>
-        <h3>Competitive FPS</h3>
-        <p>CS2 and Valorant are my favorite ways to reset, coordinate, and chase one cleaner round.</p>
-      </article>
-      <article class="life-card interactive-card" data-reveal="" style="--delay: 80ms">
-        <span class="life-card__number">02</span>
-        <div class="life-card__icon" aria-hidden="true">42K</div>
-        <h3>Distance running</h3>
-        <p>I spent three years with ZJU's <a href="https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm" target="_blank" rel="noopener noreferrer">Kuafu Long Distance Alliance</a> and have raced the 1500m and half marathon.</p>
-      </article>
-      <article class="life-card interactive-card" data-reveal="" style="--delay: 160ms">
-        <span class="life-card__number">03</span>
-        <div class="life-card__icon" aria-hidden="true">21</div>
-        <h3>Badminton</h3>
-        <p>Still an amateur, still learning, and always happy to play one more game.</p>
-      </article>
-    </div>
-
-    <div class="contact-panel interactive-card" id="contact" data-reveal="">
-      <div>
-        <span class="section-kicker">Let's connect</span>
-        <h2>Interested in agents that can actually get things done?</h2>
-        <p>I am always glad to discuss research ideas, collaborations, and ambitious agentic systems.</p>
-      </div>
-      <div class="contact-panel__actions">
-        <a class="button button--primary" href="mailto:gan00067@umn.edu">Start a conversation <span aria-hidden="true">&nearr;</span></a>
-        <a class="button button--ghost" href="/docs/CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
-      </div>
+    <div class="personal-content" data-reveal="">
+      <p>
+        Outside research, I enjoy playing CS2 and Valorant, distance running, and badminton.
+        I was a member of Zhejiang University's
+        <a href="https://www.zju.edu.cn/2022/0707/c69364a2602122/page.htm" target="_blank" rel="noopener noreferrer">Kuafu Long Distance Alliance</a>
+        for three years and have participated in the 1500m race and half marathon.
+      </p>
+      <p>For research discussions or collaboration, please contact me at <a href="mailto:gan00067@umn.edu">gan00067@umn.edu</a>.</p>
     </div>
   </div>
 </section>
@@ -565,13 +409,12 @@
       <div class="home-container">
         <div class="site-footer__top">
           <a class="site-footer__brand" href="#top" aria-label="Back to top">
-            <span class="site-footer__mark">SG</span>
             <span>
               <strong>Shuyu Gan</strong>
-              <small>Agentic AI researcher</small>
+              <small>PhD Student in Computer Science</small>
             </span>
           </a>
-          <p>Building general-purpose agents that can reason, adapt, and use computers to get real work done.</p>
+          <p>University of Minnesota. Research interests include agentic AI, LLM alignment, and inference-time reasoning.</p>
           <div class="site-footer__links">
             <a href="mailto:gan00067@umn.edu">Email</a>
             <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
@@ -581,14 +424,14 @@
         </div>
         <div class="site-footer__bottom">
           <span>&copy; 2026 Shuyu Gan</span>
-          <span>Designed for curiosity. Built on GitHub Pages.</span>
+          <span>Last updated July 2026</span>
         </div>
       </div>
     </footer>
 
 
 
-<script src="/assets/js/home.js?v=dd31e9913aa8b52e2b0b11b7d0129e1919e64036" defer></script>
+<script src="/assets/js/home.js?v=860d45f4645c8f721dc4c4ac0162cea3a3a551cd" defer></script>
 
 
 
