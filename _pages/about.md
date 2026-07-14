@@ -23,10 +23,6 @@ redirect_from:
         </h1>
         <p class="hero__pronunciation">Pronounced: SHOO-yoo GAHN</p>
         <p class="hero__affiliation">University of Minnesota, Twin Cities</p>
-        <p class="hero__focus">
-          Current focus:
-          <span id="rotating-focus" data-items="computer-use agents|inference-time reasoning|LLM alignment">computer-use agents</span>
-        </p>
 
         <div class="hero__bio">
           <p>
@@ -75,6 +71,20 @@ redirect_from:
           </div>
         </dl>
       </aside>
+
+      <div class="focus-panel is-visible" data-reveal>
+        <div class="focus-panel__header">
+          <span>Current Research</span>
+          <span id="focus-counter">01 / 03</span>
+        </div>
+        <div class="focus-panel__body">
+          <h2 id="rotating-focus" data-items="Computer-use agents|Inference-time reasoning|LLM alignment">Computer-use agents</h2>
+          <p id="rotating-focus-description" data-items="Multimodal agents for graphical interfaces and long-horizon tasks.|Methods that improve language-model and agent reasoning at inference time.|Adaptive language models that infer user preferences and remain controllable.">Multimodal agents for graphical interfaces and long-horizon tasks.</p>
+        </div>
+        <div class="focus-panel__progress" aria-hidden="true">
+          <span id="focus-progress"></span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -87,18 +97,21 @@ redirect_from:
 
     <div class="research-grid">
       <article class="research-item" data-reveal>
+        <span class="research-item__number">01</span>
         <h3>Computer-Use Agents</h3>
         <p>Multimodal agents that perceive graphical interfaces, plan across applications, and execute long-horizon computer tasks.</p>
         <a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a>
       </article>
 
       <article class="research-item" data-reveal>
+        <span class="research-item__number">02</span>
         <h3>Inference-Time Reasoning</h3>
         <p>Methods for improving agent and language-model reasoning at inference time, including settings with difficult-to-verify feedback.</p>
         <a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a>
       </article>
 
       <article class="research-item" data-reveal>
+        <span class="research-item__number">03</span>
         <h3>Alignment and Personalization</h3>
         <p>Evaluation and modeling of latent user preferences for more adaptive and controllable language-model interactions.</p>
         <a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Latent Preferences</a>

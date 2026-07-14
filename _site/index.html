@@ -52,7 +52,7 @@
 </script>
 
 
-<link rel="stylesheet" href="/assets/css/main.css?v=4c4fec60c9cb28cf9b3d56219eafe0a93f74a202">
+<link rel="stylesheet" href="/assets/css/main.css?v=46b21816dcd3144aed5cef041c21cf728e7aeab6">
 
 <meta http-equiv="cleartype" content="on">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
@@ -64,8 +64,8 @@
 <meta id="theme-color-meta" name="theme-color" content="#faf9f6">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/academicons.css?v=4c4fec60c9cb28cf9b3d56219eafe0a93f74a202">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/academicons.css?v=46b21816dcd3144aed5cef041c21cf728e7aeab6">
 
   </head>
 
@@ -137,10 +137,6 @@
         </h1>
         <p class="hero__pronunciation">Pronounced: SHOO-yoo GAHN</p>
         <p class="hero__affiliation">University of Minnesota, Twin Cities</p>
-        <p class="hero__focus">
-          Current focus:
-          <span id="rotating-focus" data-items="computer-use agents|inference-time reasoning|LLM alignment">computer-use agents</span>
-        </p>
 
         <div class="hero__bio">
           <p>
@@ -189,6 +185,20 @@
           </div>
         </dl>
       </aside>
+
+      <div class="focus-panel is-visible" data-reveal="">
+        <div class="focus-panel__header">
+          <span>Current Research</span>
+          <span id="focus-counter">01 / 03</span>
+        </div>
+        <div class="focus-panel__body">
+          <h2 id="rotating-focus" data-items="Computer-use agents|Inference-time reasoning|LLM alignment">Computer-use agents</h2>
+          <p id="rotating-focus-description" data-items="Multimodal agents for graphical interfaces and long-horizon tasks.|Methods that improve language-model and agent reasoning at inference time.|Adaptive language models that infer user preferences and remain controllable.">Multimodal agents for graphical interfaces and long-horizon tasks.</p>
+        </div>
+        <div class="focus-panel__progress" aria-hidden="true">
+          <span id="focus-progress"></span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -201,18 +211,21 @@
 
     <div class="research-grid">
       <article class="research-item" data-reveal="">
+        <span class="research-item__number">01</span>
         <h3>Computer-Use Agents</h3>
         <p>Multimodal agents that perceive graphical interfaces, plan across applications, and execute long-horizon computer tasks.</p>
         <a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a>
       </article>
 
       <article class="research-item" data-reveal="">
+        <span class="research-item__number">02</span>
         <h3>Inference-Time Reasoning</h3>
         <p>Methods for improving agent and language-model reasoning at inference time, including settings with difficult-to-verify feedback.</p>
         <a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a>
       </article>
 
       <article class="research-item" data-reveal="">
+        <span class="research-item__number">03</span>
         <h3>Alignment and Personalization</h3>
         <p>Evaluation and modeling of latent user preferences for more adaptive and controllable language-model interactions.</p>
         <a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Latent Preferences</a>
@@ -439,7 +452,7 @@
 
 
 
-<script src="/assets/js/home.js?v=4c4fec60c9cb28cf9b3d56219eafe0a93f74a202" defer></script>
+<script src="/assets/js/home.js?v=46b21816dcd3144aed5cef041c21cf728e7aeab6" defer></script>
 
 
 

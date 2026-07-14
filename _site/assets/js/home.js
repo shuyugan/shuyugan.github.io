@@ -166,6 +166,9 @@
 
   function initFocusRotation() {
     var target = document.getElementById("rotating-focus");
+    var description = document.getElementById("rotating-focus-description");
+    var counter = document.getElementById("focus-counter");
+    var progress = document.getElementById("focus-progress");
 
     if (!target || reduceMotion) {
       return;
@@ -178,19 +181,54 @@
       })
       .filter(Boolean);
 
+    var descriptions = description
+      ? (description.getAttribute("data-items") || "")
+        .split("|")
+        .map(function (item) {
+          return item.trim();
+        })
+      : [];
+
     if (items.length < 2) {
       return;
     }
 
     var index = 0;
+
+    function restartProgress() {
+      if (!progress) {
+        return;
+      }
+
+      progress.classList.remove("is-running");
+      void progress.offsetWidth;
+      progress.classList.add("is-running");
+    }
+
+    restartProgress();
+
     window.setInterval(function () {
       target.classList.add("is-changing");
+      if (description) {
+        description.classList.add("is-changing");
+      }
+
       window.setTimeout(function () {
         index = (index + 1) % items.length;
         target.textContent = items[index];
+        if (description && descriptions[index]) {
+          description.textContent = descriptions[index];
+        }
+        if (counter) {
+          counter.textContent = ("0" + (index + 1)).slice(-2) + " / " + ("0" + items.length).slice(-2);
+        }
         target.classList.remove("is-changing");
-      }, 180);
-    }, 3000);
+        if (description) {
+          description.classList.remove("is-changing");
+        }
+        restartProgress();
+      }, 240);
+    }, 4000);
   }
 
   function initScrollProgress() {
