@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://shuyugan.github.io/</loc>
+</url>
+<url>
+<loc>https://shuyugan.github.io/docs/README-zh/</loc>
+</url>
+<url>
+<loc>https://shuyugan.github.io/docs/CV.pdf</loc>
+<lastmod>2026-07-15T05:48:06+08:00</lastmod>
 </url>
 </urlset>

@@ -1,16 +1,40 @@
-<div class="masthead">
+<header class="masthead" id="site-header">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+    <a class="site-brand" href="#top" aria-label="Shuyu Gan, back to top">
+      <span class="site-brand__mark" aria-hidden="true">SG</span>
+      <span class="site-brand__text">
+        <strong>Shuyu Gan</strong>
+        <small>Agentic AI Researcher</small>
+      </span>
+    </a>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <ul class="site-nav__links">
+{%- for link in site.data.navigation.main %}
+        <li><a class="site-nav__link" href="{{ link.url }}">{{ link.title }}</a></li>
+{%- endfor %}
+        <li>
+          <a class="site-nav__cv" href="{{ '/docs/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+            CV <span aria-hidden="true">&nearr;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="masthead__actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false">
+        <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+      <button class="site-nav-toggle" id="site-nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </div>
-</div>
+</header>

@@ -5,15 +5,21 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function () {
+    var theme = 'dark';
+    try {
+      theme = localStorage.getItem('shuyu-theme') || 'dark';
+    } catch (error) {
+      console.warn('Unable to read the saved color theme.', error);
+    }
+    document.documentElement.setAttribute('data-theme', theme === 'light' ? 'light' : 'dark');
+  }());
 </script>
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <meta http-equiv="cleartype" content="on">
-<head>
-  <base target="_blank">
-</head>

@@ -1,24 +1,13 @@
-# main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "News"
-    url: "/#-news"
-
-  # - title: "Research Experience"
-  #   url: "/#-Research-Experience"
-
+  - title: "About"
+    url: "#about"
+  - title: "Research"
+    url: "#research"
+  - title: "Updates"
+    url: "#news"
+  - title: "Journey"
+    url: "#journey"
   - title: "Publications"
-    url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  # - title: "Campus Experience"
-  #   url: "/#-Campus-Experience"
-
-  
+    url: "#publications"
+  - title: "Beyond"
+    url: "#beyond"

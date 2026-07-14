@@ -6,8 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title: "Shuyu's Page"
-description: "UMN CS PhD"
+title: "Shuyu Gan"
+description: "CS PhD student at the University of Minnesota researching general-purpose AI agents, LLM alignment, and inference-time reasoning."
+url: "https://shuyugan.github.io"
+lang: "en"
 repository: "shuyugan/shuyugan.github.io"
 google_scholar_stats_use_cdn: true
 
@@ -23,11 +25,11 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Shuyu Gan"
   avatar: "images/me.jpg"
-  bio: "University of Minnesota, Twin Cities"
-  location: "Minneapolis, Minnesota"
+  bio: "CS PhD Student @ University of Minnesota"
+  location: "Minneapolis, MN"
   employer:
   pubmed:
-  googlescholar: "https://scholar.google.com.hk/citations?user=nfRYJJsAAAAJ&hl=zh-CN"
+  googlescholar: "https://scholar.google.com/citations?user=nfRYJJsAAAAJ"
   email: "gan00067@umn.edu"
   researchgate:
   uri:
@@ -45,13 +47,13 @@ author:
   lastfm:
   linkedin: "shuyu-gan-18286b286"
   dblp: # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid: "https://orcid.org/my-orcid?orcid=0009-0006-2030-3393" # e.g., "https://orcid.org/xxxx"
+  orcid: "https://orcid.org/0009-0006-2030-3393" # e.g., "https://orcid.org/xxxx"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
   steam:
   tumblr:
-  twitter: "https://x.com/ShuyuGan"
+  twitter: "ShuyuGan"
   vine:
   weibo:
   xing:
