@@ -164,7 +164,65 @@
     });
   }
 
+  function initFocusRotation() {
+    var target = document.getElementById("rotating-focus");
+
+    if (!target || reduceMotion) {
+      return;
+    }
+
+    var items = (target.getAttribute("data-items") || "")
+      .split("|")
+      .map(function (item) {
+        return item.trim();
+      })
+      .filter(Boolean);
+
+    if (items.length < 2) {
+      return;
+    }
+
+    var index = 0;
+    window.setInterval(function () {
+      target.classList.add("is-changing");
+      window.setTimeout(function () {
+        index = (index + 1) % items.length;
+        target.textContent = items[index];
+        target.classList.remove("is-changing");
+      }, 180);
+    }, 3000);
+  }
+
+  function initScrollProgress() {
+    var bar = document.getElementById("scroll-progress-bar");
+    var scheduled = false;
+
+    if (!bar) {
+      return;
+    }
+
+    function update() {
+      var scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      var progress = scrollable > 0 ? Math.min(window.scrollY / scrollable, 1) : 0;
+      bar.style.width = progress * 100 + "%";
+      scheduled = false;
+    }
+
+    function requestUpdate() {
+      if (!scheduled) {
+        scheduled = true;
+        window.requestAnimationFrame(update);
+      }
+    }
+
+    update();
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+  }
+
   initTheme();
   initNavigation();
   initReveal();
+  initFocusRotation();
+  initScrollProgress();
 }());

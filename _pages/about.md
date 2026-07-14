@@ -23,6 +23,10 @@ redirect_from:
         </h1>
         <p class="hero__pronunciation">Pronounced: SHOO-yoo GAHN</p>
         <p class="hero__affiliation">University of Minnesota, Twin Cities</p>
+        <p class="hero__focus">
+          Current focus:
+          <span id="rotating-focus" data-items="computer-use agents|inference-time reasoning|LLM alignment">computer-use agents</span>
+        </p>
 
         <div class="hero__bio">
           <p>
@@ -115,7 +119,7 @@ redirect_from:
         <p><a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a> was accepted to <strong>ACL 2026 Findings</strong>.</p>
       </article>
       <article class="news-item" data-reveal>
-        <time datetime="2026">2026</time>
+        <time datetime="2026-07">Jul 2026</time>
         <p><a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Do LLMs Recognize Your Latent Preferences?</a> was accepted to <strong>COLM 2026</strong>.</p>
       </article>
       <article class="news-item" data-reveal>
