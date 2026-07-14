@@ -21,7 +21,7 @@ redirect_from:
           Shuyu Gan
           <span class="hero__chinese">甘书宇</span>
         </h1>
-        <p class="hero__pronunciation">Pinyin: Gān Shūyǔ</p>
+        <p class="hero__pronunciation">Pronounced: SHOO-yoo GAHN</p>
         <p class="hero__affiliation">University of Minnesota, Twin Cities</p>
 
         <div class="hero__bio">
