@@ -537,15 +537,16 @@ html[data-theme="dark"] .theme-toggle__moon {
 
 .profile-card__details > div {
   display: grid;
-  grid-template-columns: 58px minmax(0, 1fr);
-  gap: 8px;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 10px;
   padding: 5px 0;
   font-size: 0.82rem;
 }
 
 .profile-card__details dt {
-  color: var(--page-subtle);
+  color: var(--page-accent);
   font-weight: 500;
+  text-align: center;
 }
 
 .profile-card__details dd {

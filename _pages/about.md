@@ -62,11 +62,11 @@ redirect_from:
         </div>
         <dl class="profile-card__details">
           <div>
-            <dt>Location</dt>
+            <dt><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span class="sr-only">Location</span></dt>
             <dd>Minneapolis, Minnesota</dd>
           </div>
           <div>
-            <dt>Email</dt>
+            <dt><i class="fas fa-envelope" aria-hidden="true"></i><span class="sr-only">Email</span></dt>
             <dd><a href="mailto:gan00067@umn.edu">gan00067@umn.edu</a></dd>
           </div>
         </dl>
