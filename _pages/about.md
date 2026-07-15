@@ -161,6 +161,22 @@ redirect_from:
 
         <div class="experience-list">
           <article class="experience-item" data-reveal>
+            <div class="experience-item__date">Jun 2026 - Present</div>
+            <div>
+              <h3>Research Intern</h3>
+              <p class="experience-item__organization">
+                <a href="https://www.microsoft.com/en-us/applied-sciences/" target="_blank" rel="noopener noreferrer">Applied Sciences Group</a>,
+                Microsoft
+              </p>
+              <p>
+                Mentored by
+                <a href="https://www.microsoft.com/applied-sciences/people/yinheng-li" target="_blank" rel="noopener noreferrer">Yinheng Li</a>,
+                studying whether AI agents can autonomously supervise model training.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item" data-reveal>
             <div class="experience-item__date">Jun 2025 - Present</div>
             <div>
               <h3>Graduate Research Assistant</h3>
