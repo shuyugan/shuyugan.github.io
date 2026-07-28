@@ -1173,6 +1173,10 @@ html[data-theme="dark"] .theme-toggle__moon {
     margin-top: 0;
   }
 
+  .teaching .education-item {
+    grid-column: 1 / -1;
+  }
+
   .site-footer__top {
     grid-template-columns: 200px minmax(0, 1fr);
   }

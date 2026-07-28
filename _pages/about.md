@@ -308,6 +308,57 @@ redirect_from:
   </div>
 </section>
 
+<section class="home-section" id="service" aria-labelledby="service-title">
+  <div class="home-container">
+    <div class="experience-layout">
+      <div>
+        <header class="section-heading" data-reveal>
+          <h2 id="service-title">Academic Service</h2>
+        </header>
+
+        <div class="experience-list">
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">2026</div>
+            <div>
+              <h3>Reviewer</h3>
+              <p class="experience-item__organization">NeurIPS 2026, ED Track</p>
+            </div>
+          </article>
+
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">2026</div>
+            <div>
+              <h3>Reviewer</h3>
+              <p class="experience-item__organization">ICML 2026</p>
+            </div>
+          </article>
+
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">2026</div>
+            <div>
+              <h3>Reviewer</h3>
+              <p class="experience-item__organization">ACL 2026 Workshop</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <aside class="education teaching">
+        <header class="section-heading" data-reveal>
+          <h2>Teaching</h2>
+        </header>
+
+        <article class="education-item" data-reveal>
+          <time>Fall 2025</time>
+          <h3>Teaching Assistant</h3>
+          <p>CSCI 5541: Natural Language Processing</p>
+          <span>University of Minnesota</span>
+        </article>
+      </aside>
+    </div>
+  </div>
+</section>
+
 <section class="home-section" id="beyond" aria-labelledby="personal-title">
   <div class="home-container">
     <header class="section-heading" data-reveal>

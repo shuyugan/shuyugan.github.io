@@ -9,5 +9,7 @@ main:
     url: "#journey"
   - title: "Publications"
     url: "#publications"
+  - title: "Service"
+    url: "#service"
   - title: "Personal"
     url: "#beyond"
