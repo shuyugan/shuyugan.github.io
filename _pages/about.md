@@ -45,11 +45,6 @@ redirect_from:
             at Zhejiang University in 2024.
           </p>
         </div>
-
-        <div class="hero__actions">
-          <a class="button button--primary" href="{{ '/docs/CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>
-          <a class="button button--secondary" href="mailto:gan00067@umn.edu">Email</a>
-        </div>
       </div>
 
       <aside class="profile-card is-visible" data-reveal aria-label="Profile">
