@@ -48,7 +48,32 @@ redirect_from:
       </div>
 
       <aside class="profile-card is-visible" data-reveal aria-label="Profile">
-        <img src="{{ '/images/me.jpg' | relative_url }}" alt="Portrait of Shuyu Gan">
+        <div class="portrait-flip">
+          <button
+            id="portrait-flip"
+            class="portrait-flip__button"
+            type="button"
+            aria-label="Show pixel-art portrait"
+            aria-pressed="false"
+            aria-describedby="portrait-flip-status"
+          >
+            <span class="portrait-flip__inner">
+              <span id="portrait-photo" class="portrait-flip__face portrait-flip__face--front" aria-hidden="false">
+                <img src="{{ '/images/me.jpg' | relative_url }}" alt="Portrait of Shuyu Gan at sunset">
+              </span>
+              <span id="portrait-pixel" class="portrait-flip__face portrait-flip__face--back" aria-hidden="true">
+                <img src="{{ '/images/me-pixel.png' | relative_url }}" alt="Pixel-art portrait of Shuyu Gan at sunset">
+              </span>
+            </span>
+            <span class="portrait-flip__hint" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M20 7v5h-5M4 17v-5h5M6.1 9a7 7 0 0 1 11.5-2.6L20 9M4 15l2.4 2.6A7 7 0 0 0 17.9 15"/>
+              </svg>
+              <span data-flip-label>Pixel mode</span>
+            </span>
+          </button>
+          <span id="portrait-flip-status" class="sr-only" aria-live="polite">Original portrait shown.</span>
+        </div>
         <div class="profile-card__links" aria-label="Academic and social profiles">
           <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
           <a href="https://github.com/shuyugan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>

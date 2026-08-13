@@ -231,6 +231,45 @@
     }, 4000);
   }
 
+  function initPortraitFlip() {
+    var button = document.getElementById("portrait-flip");
+
+    if (!button) {
+      return;
+    }
+
+    var label = button.querySelector("[data-flip-label]");
+    var photo = document.getElementById("portrait-photo");
+    var pixel = document.getElementById("portrait-pixel");
+    var status = document.getElementById("portrait-flip-status");
+
+    function setFlipped(flipped) {
+      button.classList.toggle("is-flipped", flipped);
+      button.setAttribute("aria-pressed", flipped ? "true" : "false");
+      button.setAttribute("aria-label", flipped ? "Show original portrait" : "Show pixel-art portrait");
+
+      if (label) {
+        label.textContent = flipped ? "Photo mode" : "Pixel mode";
+      }
+
+      if (photo) {
+        photo.setAttribute("aria-hidden", flipped ? "true" : "false");
+      }
+
+      if (pixel) {
+        pixel.setAttribute("aria-hidden", flipped ? "false" : "true");
+      }
+
+      if (status) {
+        status.textContent = flipped ? "Pixel-art portrait shown." : "Original portrait shown.";
+      }
+    }
+
+    button.addEventListener("click", function () {
+      setFlipped(button.getAttribute("aria-pressed") !== "true");
+    });
+  }
+
   function initScrollProgress() {
     var bar = document.getElementById("scroll-progress-bar");
     var scheduled = false;
@@ -262,5 +301,6 @@
   initNavigation();
   initReveal();
   initFocusRotation();
+  initPortraitFlip();
   initScrollProgress();
 }());
