@@ -148,6 +148,10 @@ redirect_from:
 
     <div class="news-list">
       <article class="news-item" data-reveal>
+        <time datetime="2026-10">Oct 2026</time>
+        <p>We introduce <a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">SanSi</a>, a looped typed decision model for System 1.5 thinking. Check out our <a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">paper</a>!</p>
+      </article>
+      <article class="news-item" data-reveal>
         <time datetime="2026-07">Jul 2026</time>
         <p><a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Do LLMs Recognize Your Latent Preferences?</a> was accepted to <strong>COLM 2026</strong>.</p>
       </article>
@@ -181,7 +185,7 @@ redirect_from:
 
         <div class="experience-list">
           <article class="experience-item" data-reveal>
-            <div class="experience-item__date">Jun 2026 - Present</div>
+            <div class="experience-item__date">Jun 2026 - Sep 2026</div>
             <div>
               <h3>Research Intern</h3>
               <p class="experience-item__organization">
@@ -279,6 +283,15 @@ redirect_from:
     </header>
 
     <div class="publication-list">
+      <article class="publication-item" data-reveal>
+        <div class="publication-item__venue">arXiv 2026</div>
+        <div>
+          <h3><a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">SanSi: A Looped Typed Decision Model for System 1.5 Thinking</a></h3>
+          <p><strong>Shuyu Gan</strong>, Y.-J. Lee, D. Kang</p>
+          <a class="publication-item__paper" href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">Paper</a>
+        </div>
+      </article>
+
       <article class="publication-item" data-reveal>
         <div class="publication-item__venue">ACL Findings 2026</div>
         <div>
