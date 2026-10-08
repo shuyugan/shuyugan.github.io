@@ -902,6 +902,20 @@ html[data-theme="dark"] .theme-toggle__moon {
   border-top: 1px solid var(--page-border);
 }
 
+.experience-group {
+  margin: 0 0 12px;
+  color: var(--page-accent);
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.experience-list + .experience-group {
+  margin-top: 38px;
+}
+
 .experience-item {
   display: grid;
   grid-template-columns: 145px minmax(0, 1fr);

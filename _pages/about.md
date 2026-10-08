@@ -183,14 +183,14 @@ redirect_from:
           <h2 id="experience-title">Research Experience</h2>
         </header>
 
+        <h3 class="experience-group" data-reveal>Industry</h3>
         <div class="experience-list">
           <article class="experience-item" data-reveal>
             <div class="experience-item__date">Jun 2026 - Sep 2026</div>
             <div>
               <h3>Research Intern</h3>
               <p class="experience-item__organization">
-                <a href="https://www.microsoft.com/en-us/applied-sciences/" target="_blank" rel="noopener noreferrer">Applied Sciences Group</a>,
-                Microsoft
+                Applied Sciences Group, Microsoft
               </p>
               <p>
                 Mentored by
@@ -200,6 +200,27 @@ redirect_from:
             </div>
           </article>
 
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">Apr 2025 - Jul 2025</div>
+            <div>
+              <h3>Research Intern</h3>
+              <p class="experience-item__organization">Zhipu AI</p>
+              <p>Mentored by Xiao Liu, researching tool-based and agentic reinforcement learning for computer-use agents.</p>
+            </div>
+          </article>
+
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">Jun 2024 - Nov 2024</div>
+            <div>
+              <h3>Research Intern</h3>
+              <p class="experience-item__organization">Simular</p>
+              <p>Worked with Prof. Xin Eric Wang on Agent S, an MLLM-based framework for computer-use agents.</p>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="experience-group" data-reveal>Academia</h3>
+        <div class="experience-list">
           <article class="experience-item" data-reveal>
             <div class="experience-item__date">Jun 2025 - Present</div>
             <div>
@@ -211,15 +232,6 @@ redirect_from:
                 University of Minnesota
               </p>
               <p>Agentic AI and inference-time reasoning, advised by Prof. Dongyeop Kang and Prof. Mingyi Hong.</p>
-            </div>
-          </article>
-
-          <article class="experience-item" data-reveal>
-            <div class="experience-item__date">Jun 2024 - Nov 2024</div>
-            <div>
-              <h3>Undergraduate Visiting Research Intern</h3>
-              <p class="experience-item__organization"><a href="http://eric-lab.soe.ucsc.edu/home" target="_blank" rel="noopener noreferrer">ERIC Lab</a>, UC Santa Cruz</p>
-              <p>Worked with Prof. Xin Eric Wang on Agent S, an MLLM-based framework for computer-use agents.</p>
             </div>
           </article>
 
