@@ -611,8 +611,17 @@ html[data-theme="dark"] .theme-toggle__moon {
   border-right: 1px solid var(--page-border);
 }
 
-.profile-card__links a:nth-child(-n + 2) {
+.profile-card__links a:not(:last-child) {
   border-bottom: 1px solid var(--page-border);
+}
+
+.profile-card__links a:nth-last-child(2):nth-child(odd) {
+  border-bottom: 0;
+}
+
+.profile-card__links a:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  border-right: 0;
 }
 
 .profile-card__links a:hover {

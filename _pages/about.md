@@ -78,6 +78,7 @@ redirect_from:
           <a href="https://scholar.google.com/citations?user=nfRYJJsAAAAJ" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
           <a href="https://github.com/shuyugan" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
           <a href="https://www.linkedin.com/in/shuyu-gan-18286b286" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a href="https://x.com/ShuyuGan" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
           <a href="https://orcid.org/0009-0006-2030-3393" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a>
         </div>
         <dl class="profile-card__details">
