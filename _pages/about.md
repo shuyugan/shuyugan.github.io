@@ -301,6 +301,7 @@ redirect_from:
         <div>
           <h3><a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">SanSi: A Looped Typed Decision Model for System 1.5 Thinking</a></h3>
           <p><strong>Shuyu Gan</strong>, Y.-J. Lee, D. Kang</p>
+          <p class="publication-item__note">Featured by <a href="https://www.turingpost.com/p/exploring-system-one-ai-models-beyond-jev-15-outstanding-models" target="_blank" rel="noopener noreferrer">Turing Post</a></p>
           <a class="publication-item__paper" href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">Paper</a>
         </div>
       </article>
