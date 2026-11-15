@@ -7,7 +7,7 @@
 
 # Site Settings
 title: "Shuyu Gan"
-description: "CS PhD student at the University of Minnesota researching general-purpose AI agents, LLM alignment, and inference-time reasoning."
+description: "CS PhD student at the University of Minnesota researching autoresearch, test-time reasoning, and GUI agents."
 url: "https://shuyugan.github.io"
 lang: "en"
 repository: "shuyugan/shuyugan.github.io"

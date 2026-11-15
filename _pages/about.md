@@ -3,7 +3,7 @@ layout: home
 permalink: /
 title: "Shuyu Gan"
 seo_title: "Shuyu Gan | PhD Student at the University of Minnesota"
-excerpt: "Shuyu Gan is a Computer Science PhD student at the University of Minnesota working on agentic AI, LLM alignment, and inference-time reasoning."
+excerpt: "Shuyu Gan is a Computer Science PhD student at the University of Minnesota working on autoresearch, test-time reasoning, and GUI agents."
 author_profile: false
 redirect_from:
   - /about/
@@ -36,7 +36,7 @@ redirect_from:
             <a href="https://people.ece.umn.edu/~mhong/mingyi.html" target="_blank" rel="noopener noreferrer">Prof. Mingyi Hong</a>.
           </p>
           <p>
-            My research interests include agentic AI, LLM alignment, inference-time reasoning, and computer-use agents.
+            My research interests include autoresearch, test-time reasoning, and GUI agents.
             My long-term goal is to develop general-purpose agents that can reliably complete complex computer tasks.
           </p>
           <p>
@@ -99,8 +99,8 @@ redirect_from:
           <span id="focus-counter">01 / 03</span>
         </div>
         <div class="focus-panel__body">
-          <h2 id="rotating-focus" data-items="Computer-use agents|Inference-time reasoning|LLM alignment">Computer-use agents</h2>
-          <p id="rotating-focus-description" data-items="Multimodal agents for graphical interfaces and long-horizon tasks.|Methods that improve language-model and agent reasoning at inference time.|Adaptive language models that infer user preferences and remain controllable.">Multimodal agents for graphical interfaces and long-horizon tasks.</p>
+          <h2 id="rotating-focus" data-items="Autoresearch|Test-time reasoning|GUI agents">Autoresearch</h2>
+          <p id="rotating-focus-description" data-items="Can agents train and audit models on their own?|Better reasoning from inference-time compute.|Agents that use computers the way people do.">Can agents train and audit models on their own?</p>
         </div>
         <div class="focus-panel__progress" aria-hidden="true">
           <span id="focus-progress"></span>
@@ -116,28 +116,29 @@ redirect_from:
       <h2 id="research-title">Research Interests</h2>
     </header>
 
-    <div class="research-grid">
-      <article class="research-item" data-reveal>
-        <span class="research-item__number">01</span>
-        <h3>Computer-Use Agents</h3>
-        <p>Multimodal agents that perceive graphical interfaces, plan across applications, and execute long-horizon computer tasks.</p>
-        <a href="https://arxiv.org/abs/2410.08164" target="_blank" rel="noopener noreferrer">Agent S</a>
-      </article>
-
-      <article class="research-item" data-reveal>
-        <span class="research-item__number">02</span>
-        <h3>Inference-Time Reasoning</h3>
-        <p>Methods for improving agent and language-model reasoning at inference time, including settings with difficult-to-verify feedback.</p>
-        <a href="https://arxiv.org/abs/2512.22650" target="_blank" rel="noopener noreferrer">Scaling Unverifiable Rewards</a>
-      </article>
-
-      <article class="research-item" data-reveal>
-        <span class="research-item__number">03</span>
-        <h3>Alignment and Personalization</h3>
-        <p>Evaluation and modeling of latent user preferences for more adaptive and controllable language-model interactions.</p>
-        <a href="https://arxiv.org/abs/2510.17132" target="_blank" rel="noopener noreferrer">Latent Preferences</a>
-      </article>
-    </div>
+    <ul class="interest-grid">
+      <li class="interest-card" data-reveal>
+        <span class="interest-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M9 3h6M10 3v6.2L4.8 18a2 2 0 0 0 1.7 3h11a2 2 0 0 0 1.7-3L14 9.2V3M7.4 14.5h9.2"/></svg>
+        </span>
+        <h3>Autoresearch</h3>
+        <p>Agents that train models and audit training runs on their own.</p>
+      </li>
+      <li class="interest-card" data-reveal>
+        <span class="interest-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M9.5 18h5M10.5 21h3M12 3a6 6 0 0 0-3.7 10.7c.7.6 1.2 1.4 1.2 2.3h5c0-.9.5-1.7 1.2-2.3A6 6 0 0 0 12 3z"/></svg>
+        </span>
+        <h3>Test-Time Reasoning</h3>
+        <p>Spending inference-time compute to help models reason better.</p>
+      </li>
+      <li class="interest-card" data-reveal>
+        <span class="interest-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4M10 7.5l5 3.5-2.2.5 1.2 2.2-1.1.6-1.2-2.2-1.7 1.5z"/></svg>
+        </span>
+        <h3>GUI Agents</h3>
+        <p>Multimodal agents that operate computers through graphical interfaces.</p>
+      </li>
+    </ul>
   </div>
 </section>
 
@@ -150,7 +151,11 @@ redirect_from:
     <div class="news-list">
       <article class="news-item" data-reveal>
         <time datetime="2026-10">Oct 2026</time>
-        <p>We introduce <a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">SanSi</a>, a looped typed decision model for System 1.5 thinking. Check out our <a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">paper</a>!</p>
+        <p>I received a <strong>GAGE Fellowship</strong> for Spring 2027 from the Department of Computer Science &amp; Engineering at the University of Minnesota.</p>
+      </article>
+      <article class="news-item" data-reveal>
+        <time datetime="2026-10">Oct 2026</time>
+        <p>We introduce SanSi, a looped typed decision model for System 1.5 thinking. Check out our <a href="https://arxiv.org/abs/2610.07730" target="_blank" rel="noopener noreferrer">paper</a>!</p>
       </article>
       <article class="news-item" data-reveal>
         <time datetime="2026-07">Jul 2026</time>
@@ -364,6 +369,14 @@ redirect_from:
         </header>
 
         <div class="experience-list">
+          <article class="experience-item" data-reveal>
+            <div class="experience-item__date">2026</div>
+            <div>
+              <h3>Reviewer</h3>
+              <p class="experience-item__organization"><a href="https://aclrollingreview.org/" target="_blank" rel="noopener noreferrer">ACL Rolling Review (ARR)</a>, October 2026</p>
+            </div>
+          </article>
+
           <article class="experience-item" data-reveal>
             <div class="experience-item__date">2026</div>
             <div>
